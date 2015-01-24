@@ -1,3 +1,7 @@
+Ustaw sobie username i maila (potrzebne do serwisó na których siê nimi zarejestrowa³eœ, np. GitHub)
+git set --global user.name <user_name>
+git set --global user.email <ale@mormon.com>
+
 Na pocz¹tek wejdŸ do folderu w którym stworzy siê folder repozytorium za pomoc¹ komendy "cd <nazwa_folderu>"/"cd .."(wyjdŸ z folderu). Potem:
 git clone https://github.com/BFilip/open_repo.git
 git remote add origin https://github.com/BFilip/open_repo.git

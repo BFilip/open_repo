@@ -1,0 +1,235 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Wiimote PPJoy Mapping Script</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="author" content="Bighead">
+<meta name="generator" content="Web Page Maker">
+<style type="text/css">
+/*----------Text Styles----------*/
+.ws6 {font-size: 8px;}
+.ws7 {font-size: 9.3px;}
+.ws8 {font-size: 11px;}
+.ws9 {font-size: 12px;}
+.ws10 {font-size: 13px;}
+.ws11 {font-size: 15px;}
+.ws12 {font-size: 16px;}
+.ws14 {font-size: 19px;}
+.ws16 {font-size: 21px;}
+.ws18 {font-size: 24px;}
+.ws20 {font-size: 27px;}
+.ws22 {font-size: 29px;}
+.ws24 {font-size: 32px;}
+.ws26 {font-size: 35px;}
+.ws28 {font-size: 37px;}
+.ws36 {font-size: 48px;}
+.ws48 {font-size: 64px;}
+.ws72 {font-size: 96px;}
+.wpmd {font-size: 13px;font-family: Arial,Helvetica,Sans-Serif;font-style: normal;font-weight: normal;}
+/*----------Para Styles----------*/
+DIV,UL,OL /* Left */
+{
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+</style>
+
+<style type="text/css">
+div#container
+{
+	position:relative;
+	width: 865px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:left; 
+}
+body {text-align:center;margin:0}
+</style>
+
+</head>
+<body>
+<div id="container">
+<div id="text1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:865px; height:3836px; z-index:0">
+<div class="wpmd">
+<div><font color="#FF6600" class="ws11"><B>WiiMote PPJoy Mapping Script v1.51</B></font></div>
+<div><font class="ws11"><B>By:</B></font><font class="ws11"> Bighead -</font><font color="#FF6600" class="ws11"> bighead.0@gmail.com</font></div>
+<div><font class="ws11"><a href="http://bmgcl.atspace.cc" title="">http://bmgcl.atspace.cc</a></font></div>
+<div><font class="ws11">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------</font></div>
+<div><font color="#000080" class="ws11"><B>Description:</B></font><br>
+<font class="ws11">This script uses GlovePIE and PPJoy to enable DirectInput support for the wiimote and all attached extensions. It started as a personal script to use with my classic controller because I didn't like all the other ones I found at the time. Over time I eventually got hold of more extensions and added support for them too. I also have friends visit who play N64 emulation on occasion so I added support for multiple wiimotes. It eventually has become the only script I'll ever need for use in emulators. It can also be combined with various other joystick manipulation programs such as x360ce and Xpadder for even more functionality.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font color="#FF0000" class="ws11">*</font><font class="ws11">There used to be a bug in the script when Guitar support was added that caused the inputs to freak out when a Motion Plus was attached along with an extension. This happened because I read the wiimote pitch values to tilt the guitar for star power. This has been fixed, and you can safely keep your Motion Plus attached at all times and still use any extension this script supports.</font></div>
+<div><font class="ws11">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------</font></div>
+<div><font color="#000080" class="ws11"><B>Requirements:</B></font></div>
+<div><font color="#0000FF" class="ws11"><BR></font></div>
+<div><font class="ws11">- Windows XP/2000/Vista/7/8</font></div>
+<div><font class="ws11">- PPJoy v0.8.4.5+&nbsp; </font></div>
+<div><font class="ws11">&nbsp; &gt;</font><font class="ws11"><a href="http://glovepie.org/PPJoySetup-0.8.4.5-early-release.exe" title="">http://glovepie.org/PPJoySetup-0.8.4.5-early-release.exe</a></font></div>
+<div><font class="ws11">- GlovePIE v0.43/v0.45&nbsp; </font></div>
+<div><font class="ws11">&nbsp; &gt;</font><font class="ws11"><a href="http://glovepie.org/glovepie_download.php" title="">http://glovepie.org/glovepie_download.php</a></font></div>
+<div><font class="ws11">- Driver Signature Enforcement Overrider 1.3b (Vista/7 64-Bit) </font></div>
+<div><font class="ws11">&nbsp; &gt;</font><font class="ws11"><a href="http://www.ngohq.com/?page=dseo" title="">http://www.ngohq.com/?page=dseo</a></font></div>
+<div><font class="ws11">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------</font></div>
+<div><font color="#000080" class="ws11"><B>Supports:</B></font></div>
+<div><font color="#0000FF" class="ws11"><BR></font></div>
+<div><font class="ws11">- Up to 4 wiimotes</font></div>
+<div><font class="ws11">- No Extension</font></div>
+<div><font class="ws11">- Nunchuk</font></div>
+<div><font class="ws11">- Classic Controller</font></div>
+<div><font class="ws11">- Wii Guitar</font></div>
+<div><font class="ws11">- Wii Drums (GH World Tour)</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">There are four versions of the script that defines up to how many wiimotes it will support. I have included four versions because I figured why run more code than you have to, although it probably doesn't matter much. Multiple player versions also work with less wiimotes. For example, if you are only using 2 wiimotes, the 4-Player version of the script will still work fine.</font></div>
+<div><font class="ws11">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------</font></div>
+<div><font color="#000080" class="ws11"><B>Setup:</B></font></div>
+<div><font class="ws11">For a complete tutorial on how to setup the Wiimote to work with Windows:</font></div>
+<div><font class="ws11"><a href="http://bmgcl.atspace.cc/tutorials/WiiWindows.html" title="">Wiimote in Windows Tutorial</a></font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">Or you can try to follow the steps below...</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font color="#FF0000" class="ws11"><B>Step 1: Test Mode (64-Bit Windows Only)</B></font></div>
+<div><font class="ws11"><B>Windows Vista/7</B></font></div>
+<div><font class="ws11">- Download Driver Signature Enforcer Overrider and run it.</font></div>
+<div><font class="ws11">- Click "Enable Test Mode", then hit Next. </font></div>
+<div><font class="ws11">- Restart the computer to finish putting Windows in test mode.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11"><B>Windows 8</B></font></div>
+<div><font class="ws11">- Open command prompt as adminstrator.</font></div>
+<div><font class="ws11">- Enter the command </font><font class="ws11"><B>bcdedit -set TESTSIGNING ON</B></font><font class="ws11"> and hit enter.</font></div>
+<div><font class="ws11">- Restart the computer to finish putting Windows in test mode.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font color="#FF0000" class="ws11"><B>Step 2: Install PPJoy and add a Joystick</B></font></div>
+<div><font class="ws11">- Open the configuration.</font></div>
+<div><font class="ws11">- Click Add, then again Add.</font></div>
+<div><font class="ws11">- PPJoy Virtual Joystick 1 should appear.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font color="#FF0000" class="ws11"><B>Step 3: Configure PPJoy Mapping</B></font></div>
+<div><font class="ws11">- Click PPJoy Virtual Joystick 1 and click Mapping.</font></div>
+<div><font class="ws11">- Select "Set a custom mapping for this controller", then click Next.</font></div>
+<div><font class="ws11">- Choose: 4 Axes, 16 Buttons, 1 POV hats. Configure the next part depending on your OS.</font></div>
+<div><font face="Courier New" class="ws11"><B><BR></B></font></div>
+<div><font face="Courier New" class="ws11"><B>Axis 1:&nbsp; X Axis</B></font></div>
+<div><font face="Courier New" class="ws11"><B>Axis 2:&nbsp; Y Axis</B></font></div>
+<div><font face="Courier New" class="ws11"><B>Axis 3:&nbsp; Z Axis</B></font><font color="#FF0000" face="Courier New" class="ws11"><B>*</B></font></div>
+<div><font face="Courier New" class="ws11"><B>Axis 4:&nbsp; Z Rotation</B></font></div>
+<div><font face="Courier New" class="ws11"><B><BR></B></font></div>
+<div><font color="#FF0000" face="Courier New" class="ws11"><B>* </B></font><font face="Courier New" class="ws11"><B>Windows 8 use "Y Rotation" instead of Z Axis.</B></font></div>
+<div><font face="Courier New" class="ws11"><BR></font></div>
+<div><font class="ws11">- Click Next...</font></div>
+<div><font face="Courier New" class="ws11"><B><BR></B></font></div>
+<div><font face="Courier New" class="ws11"><B>X Axis:&nbsp;&nbsp;&nbsp;&nbsp; Analog 0</B></font></div>
+<div><font face="Courier New" class="ws11"><B>Y Axis:&nbsp;&nbsp;&nbsp;&nbsp; Analog 1</B></font></div>
+<div><font face="Courier New" class="ws11"><B>Z Axis:&nbsp;&nbsp;&nbsp;&nbsp; Analog 2</B></font><font color="#FF00FF" face="Courier New" class="ws11"><B>*</B></font></div>
+<div><font face="Courier New" class="ws11"><B>Z Rotation: Analog 3</B></font></div>
+<div><font face="Courier New" class="ws11"><B><BR></B></font></div>
+<div><font color="#FF00FF" face="Courier New" class="ws11"><B>* </B></font><font face="Courier New" class="ws11"><B>Windows 8 user should see "Y Rotation: Analog 2".</B></font></div>
+<div><font face="Courier New" class="ws11"><BR></font></div>
+<div><font class="ws11">- Keep clicking next until you are finished.</font></div>
+<div><font class="ws11">- Repeat the steps for up to 4 wiimotes if desired.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font color="#FF0000" class="ws11"><B>Step 4: Connect the Wiimote to the PC</B></font></div>
+<div><font class="ws11">Put the wiimote in discovery mode and use your bluetooth software to connect it to the PC.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font color="#FF0000" class="ws11"><B>Step 5: Run Script in GlovePIE</B></font></div>
+<div><font class="ws11">The controller should now be viewable in Windows Game Controller Settings as PPJoy Virtual Joystick. Run the GlovePie script, and the controller settings window should respond to wiimote input.</font></div>
+<div><font class="ws11">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------</font></div>
+<div><font color="#000080" class="ws11"><B>Controller Modes: </B></font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">Press the "Home" button on any device to switch modes. The Wiimote LEDs will match the current mode.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font color="#FF0000" class="ws11"><B>&nbsp; No Extensions (Sideways Wiimote)</B></font></div>
+<div><font class="ws11">&nbsp;&nbsp; Mode 1 - Standard button setup with D-Pad.</font></div>
+<div><font class="ws11">&nbsp;&nbsp; Mode 2 - Switches all buttons to a different set of buttons except D-Pad.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font color="#FF0000" class="ws11"><B>&nbsp; Wiimote + Nunchuck </B></font></div>
+<div><font class="ws11">&nbsp;&nbsp; Mode 1 - Analog Stick functions normally but there is no D-Pad support.</font></div>
+<div><font class="ws11">&nbsp;&nbsp; Mode 2 - Analog Stick functions as logical D-Pad but disables analog functions.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font color="#FF0000" class="ws11"><B>&nbsp; Classic Controller </B></font></div>
+<div><font class="ws11">&nbsp;&nbsp; Mode 1 - Left Analog and D-Pad have their own unique input (analog + digital).</font></div>
+<div><font class="ws11">&nbsp;&nbsp; Mode 2 - Makes the Left Analog function as the D-Pad (digital only).</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font color="#FF0000" class="ws11"><B>&nbsp; Wii Guitar</B></font></div>
+<div><font class="ws11">&nbsp;&nbsp; Mode 1 - Emulator mode to set up buttons for PCSX2.</font></div>
+<div><font class="ws11">&nbsp; </font><font color="#008000" class="ws11">*</font><font class="ws11">Mode 2 - Guitar Hero III PC Mode for the PC version of GHIII. (Player 1 Only in all scripts)</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font color="#FF0000" class="ws11"><B>&nbsp; Wii Drums (GH World Tour)</B></font></div>
+<div><font class="ws11">&nbsp;&nbsp; Mode 1 and Mode 2 do not have seperate functions.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font color="#339966" class="ws11">*</font><font class="ws11">Make sure the wiimote is in Mode 2 BEFORE loading Guitar Hero III. The game will enable controls for the first device it detects input for. Since Mode 2 maps to keyboard input, you want the game to play with the keyboard. Once loaded, just play as normal (skip intros with Green or Start). It should also be noted that the Wii Guitar in the 2/3/4-Player versions of the script, Modes function identically for all wiimotes other than Player 1's. In other words, you only get "Mode 1". GHIII PC does not have support for two players using the keyboard. At least one official USB guitar is required for multiplayer.</font></div>
+<div><font class="ws11">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------</font></div>
+<div><font color="#000080" class="ws11"><B>Wiimote Identification:</B></font><font color="#000080" class="ws11"> </font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">When a script is started in GlovePIE, LED 1 and 4 will light up for about 2 seconds on all Wiimotes. This means that GlovePIE has started talking to them. Next each Wiimote will light up an LED to signify its PPJoy ID: Wiimote 1 will light up LED 1, Wiimote 2 lights up LED 2, Wiimote 3 LED 3, and Wiimote 4 LED 4. This also lasts for 2 seconds before each wiimote kicks into "Mode 1" and only LED 1 is lit on all wiimotes. </font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">A new feature starting with v1.5, in the 2-4 Player versions of the script, you can press the Spacebar on the keyboard and the wiimote LEDs will light up which PPJoy ID each wiimote has. This lasts for 2 seconds and returns every Wiimote to Mode 1. This is useful if you wish to keep track of your wiimotes if you have specific settings for whatever you are using it for (emulators, games, etc).</font></div>
+<div><font class="ws11">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------</font></div>
+<div><font color="#000080" class="ws11"><B>Additional Info:</B></font></div>
+<div><font color="#000000" class="ws11"><BR></font></div>
+<div><font color="#000000" class="ws11">- When a script is started in GlovePIE with one of the 2-4 Player script versions, each wiimote will light a single LED to signify which wiimote ID it has (from 1-4) for 2 seconds. After that, "Mode 1" will kick in and light LED 1 on all wiimotes. </font></div>
+<div><font color="#000000" class="ws11"><BR></font></div>
+<div><font color="#000000" class="ws11">- It is possible to switch extensions while the script is running. If you do, then make sure NOT to hold down any buttons while unplugging/plugging the extensions or buttons can get "stuck".</font></div>
+<div><font color="#666600" class="ws11"><BR></font></div>
+<div><font class="ws11">- Nunchuk modes are useful for games that require both D-Pad and Analog Stick. You can switch modes in PSX emulators without having to remap the digital and analog functions.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">- Classic Controller Mode 2 is useful for PSX games that don't have Analog support. If you wish to use the analog over the digital for a game that only has digital, then you can without having to remap anything (ex: FFVII).</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">- Guitar Mode 1 allows easy button mapping to PCSX2. All buttons are supported. To correctly map the whammy bar, set key for "Whammy Down", press and hold the Whammy. Now, set key for "Whammmy Up" and release. Tilt is also supported. "Select/Tilt" can be mapped twice to support Star Power for both Select and Tilt.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">- Guitar Mode 2 maps to default GHIII PC keyboard buttons. Reset in-game mapping if changes were done. This will always load the game in "Lefty Mode" so make sure to always change this unless you're a Lefty!</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">- Wii Drums are untested!! Report to me if you use this script for Drums and whether they work or not.</font></div>
+<div><font class="ws11">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------</font></div>
+<div><font color="#000080" class="ws11"><B>Credits:</B></font></div>
+<div><font color="#0000FF" class="ws11"><BR></font></div>
+<div><font class="ws11">Ideas that started as the basis of the script:</font></div>
+<div><font class="ws11"><a href="http://www.squarephoenix.com/glovepie_view.php?id=5" title="">http://www.squarephoenix.com/glovepie_view.php?id=5</a></font></div>
+<div><font class="ws11">Analog Range - New method from SPRSTR (old method by lednerg and GameFreakDude) on GlovePie forum:</font></div>
+<div><font class="ws11"><a href="http://glovepie.org/forum/viewtopic.php?f=6&t=756" title="">http://glovepie.org/forum/viewtopic.php?f=6&amp;t=756</a></font></div>
+<div><font class="ws11">Basic coding ideas - User WiiAreVenom on a message board:</font></div>
+<div><font color="#FF0000" class="ws11"><I>(Unfortunately, this page is gone so I can't link to it.)</I></font></div>
+<div><font class="ws11">--------------------------------------------------------------------------------------------------------------------------------------------------------------------------</font></div>
+<div><font color="#000080" class="ws11"><B>Change Log:</B></font></div>
+<div><font color="#0000FF" class="ws11"><BR></font></div>
+<div><font class="ws11"><B>v1.51</B></font></div>
+<div><font class="ws11">- Fixed an issue with wiimote inputs going haywire if a MotionPlus was attached with an extension (such as the Nunchuk and Classic Controller). This was caused by reading the "Pitch" values. Apparently, using "SmoothPitch" does not have this issue.</font></div>
+<div><font color="#0000FF" class="ws11"><BR></font></div>
+<div><font class="ws11"><B>v1.5</B></font></div>
+<div><font class="ws11">- Switching controller modes is now more responsive.</font></div>
+<div><font class="ws11">- Range of analog sticks are now more accurate. They are treated as an octagon instead of a circle (credit: SPRSTR).</font></div>
+<div><font class="ws11">- Increased the initial controller recognition delay to 2 seconds (from 1.5) when using 2+ Player scripts.</font></div>
+<div><font class="ws11">- In the 2-4 player scripts, pressing Space on the keyboard will now force all wiimotes to light up the LED that corresponds to their PPJoy ID for 2 seconds. This also puts them all back into "Mode 1".</font></div>
+<div><font color="#0000FF" class="ws11"><BR></font></div>
+<div><font class="ws11"><B>v1.41</B></font></div>
+<div><font class="ws11">- Update ReadMe for support for Windows 8.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11"><B>v1.4 </B></font></div>
+<div><font class="ws11">- Zero out analogs when switching modes or extensions to avoid them getting "stuck".</font></div>
+<div><font class="ws11">- Fix occasional LED start up bug by forcing all LED states.</font></div>
+<div><font class="ws11">- Added initial delay on LED start up to easily signify which player each wiimote is.</font></div>
+<div><font class="ws11">- Slightly adjusted Wii Guitar "tilt" angle in emulator mode.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11"><B>v1.3 </B></font></div>
+<div><font class="ws11">- Wii Guitar and Drums support.</font></div>
+<div><font class="ws11">- Added three/four player scripts.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11"><B>v1.2</B></font><font class="ws11"> </font></div>
+<div><font class="ws11">- Fixed analog sticks to reach corners.</font></div>
+<div><font class="ws11">- Added a two player script.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11"><B>v1.1 </B></font></div>
+<div><font class="ws11">- Nunchuk support.</font></div>
+<div><font class="ws11">- Classic Controller support.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11"><B>v1.0</B></font></div>
+<div><font class="ws11">- Initial script which was never released.</font></div>
+<div><font class="ws11"><BR></font></div>
+<div><font class="ws11">---------------------------------------------------------------------------------------------------------------</font></div>
+<div><font class="ws11"><BR></font></div>
+</div></div>
+
+</div>
+
+</body>
+</html>

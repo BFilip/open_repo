@@ -1,0 +1,2052 @@
+(0, 24-sty-2015 14:29:23) Initializing PieLog
+(0, 24-sty-2015 14:29:23) Initializing filemode variable
+(0, 24-sty-2015 14:29:23) Initializing PieSpeech
+(0, 24-sty-2015 14:29:23) Initializing PieVariables
+(0, 24-sty-2015 14:29:23) Initializing PieCursorUnit
+(0, 24-sty-2015 14:29:23) Initializing PieMouse
+(0, 24-sty-2015 14:29:23) Initializing PieKeyboard
+(0, 24-sty-2015 14:29:23) Initializing PieInput
+(0, 24-sty-2015 14:29:23) Initializing PieOSC
+(0, 24-sty-2015 14:29:23) Initializing PiePie
+(0, 24-sty-2015 14:29:23) Initializing PieFunction
+(0, 24-sty-2015 14:29:23) Initializing PieStatement
+(0, 24-sty-2015 14:29:23) Initializing PieExpression
+(0, 24-sty-2015 14:29:23) Initializing PieJoystick
+(0, 24-sty-2015 14:29:23) Initializing PieP5
+(0, 24-sty-2015 14:29:23) Initializing PieMidi
+(0, 24-sty-2015 14:29:23) Initializing PiePPJoy
+(0, 24-sty-2015 14:29:23) Initializing PieRemote
+(0, 24-sty-2015 14:29:23) Initializing Pie Speech Recognition
+(0, 24-sty-2015 14:29:23) Initializing PieScreen
+(0, 24-sty-2015 14:29:23) GetMonitorEDID
+(0, 24-sty-2015 14:29:23) Initializing PieWIndow
+(0, 24-sty-2015 14:29:23) Initializing PieCursors
+(0, 24-sty-2015 14:29:23) Initializing PieZ800
+(0, 24-sty-2015 14:29:23) Initializing PieIntersense
+(0, 24-sty-2015 14:29:23) Initializing PieFastrak
+(0, 24-sty-2015 14:29:23) Initializing PiePPT
+(0, 24-sty-2015 14:29:23) Initializing PieTrackIR
+(0, 24-sty-2015 14:29:23) Initializing PiePinch
+(0, 24-sty-2015 14:29:23) Initializing PieBird
+(0, 24-sty-2015 14:29:23) Initializing PieFiveDT
+(0, 24-sty-2015 14:29:23) Starting main
+(0, 24-sty-2015 14:29:23) Application object initialized
+(0, 24-sty-2015 14:29:23) Creating main window
+(0, 24-sty-2015 14:29:23) EditorForm.Create
+(0, 24-sty-2015 14:29:24) Checking command line parameters:
+(0, 24-sty-2015 14:29:24) Creating debug window
+(0, 24-sty-2015 14:29:24) Assigning exception handler
+(0, 24-sty-2015 14:29:24) Creating debug remote control window
+(0, 24-sty-2015 14:29:24) Running application
+(0, 24-sty-2015 14:29:29) File>Open
+(0, 24-sty-2015 14:29:31) ClearMidiGui
+(0, 24-sty-2015 14:29:33) RunButton
+(0, 24-sty-2015 14:29:33) Compile>Run
+(0, 24-sty-2015 14:29:33) Compile>Compile
+(0, 24-sty-2015 14:29:33) CompileCode
+(0, 24-sty-2015 14:29:33) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:29:33) EnumerateJoysticks
+(0, 24-sty-2015 14:29:33) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:29:33) StartCompileTimeP5 False
+(0, 24-sty-2015 14:29:33) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:29:33) StartRuntime
+(0, 24-sty-2015 14:29:33) StartKeyboardMonitor
+(0, 24-sty-2015 14:29:33) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:29:36) StartRuntimeJoystick
+(0, 24-sty-2015 14:29:36) ************************* False
+(0, 24-sty-2015 14:29:47) StopButton
+(0, 24-sty-2015 14:29:47) Compile>Stop
+(0, 24-sty-2015 14:29:47) StopRuntime
+(0, 24-sty-2015 14:29:47) StopKeyboardMonitor
+(0, 24-sty-2015 14:29:47) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:29:47) StopRuntimeJoystick
+(0, 24-sty-2015 14:29:48) Midi GUI Page
+(0, 24-sty-2015 14:29:48) CompileCodeA
+(0, 24-sty-2015 14:29:48) CompileCode
+(0, 24-sty-2015 14:29:48) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:29:48) EnumerateJoysticks
+(0, 24-sty-2015 14:29:49) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:29:49) StartCompileTimeP5 False
+(0, 24-sty-2015 14:29:49) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:29:49) SetMidiLine(1)
+(0, 24-sty-2015 14:29:49) Midi DeviceBoxChange
+(0, 24-sty-2015 14:29:49) Midi ChannelBoxChange
+(0, 24-sty-2015 14:29:49) Midi CategoryBox change
+(0, 24-sty-2015 14:29:49) MidiFieldBoxClick
+(0, 24-sty-2015 14:29:49) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:29:49) MidiFuncBoxChange
+(0, 24-sty-2015 14:29:49) MidiOpBoxChange
+(0, 24-sty-2015 14:29:49) MidiFieldBoxClick
+(0, 24-sty-2015 14:29:49) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:29:49) MidiFuncBoxChange
+(0, 24-sty-2015 14:29:49) MidiOpBoxChange
+(0, 24-sty-2015 14:29:49) Midi ChannelBoxChange
+(0, 24-sty-2015 14:29:49) Midi CategoryBox change
+(0, 24-sty-2015 14:29:49) MidiFieldBoxClick
+(0, 24-sty-2015 14:29:49) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:29:49) MidiFuncBoxChange
+(0, 24-sty-2015 14:29:49) MidiOpBoxChange
+(0, 24-sty-2015 14:29:49) MidiFieldBoxClick
+(0, 24-sty-2015 14:29:49) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:29:49) MidiFuncBoxChange
+(0, 24-sty-2015 14:29:49) MidiOpBoxChange
+(0, 24-sty-2015 14:29:49) Midi CategoryBox change
+(0, 24-sty-2015 14:29:49) MidiFieldBoxClick
+(0, 24-sty-2015 14:29:49) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:29:49) MidiFuncBoxChange
+(0, 24-sty-2015 14:29:49) MidiOpBoxChange
+(0, 24-sty-2015 14:29:49) MidiFieldBoxClick
+(0, 24-sty-2015 14:29:49) MidiFuncBoxChange
+(0, 24-sty-2015 14:29:49) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:29:49) MidiOpBoxChange
+(0, 24-sty-2015 14:29:49) Midi CategoryBox change
+(0, 24-sty-2015 14:29:49) MidiFieldBoxClick
+(0, 24-sty-2015 14:29:49) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:29:49) MidiFuncBoxChange
+(0, 24-sty-2015 14:29:49) MidiOpBoxChange
+(0, 24-sty-2015 14:29:49) MidiFieldBoxClick
+(0, 24-sty-2015 14:29:49) MidiFuncBoxChange
+(0, 24-sty-2015 14:29:49) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:29:49) MidiOpBoxChange
+(0, 24-sty-2015 14:29:53) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:29:53) MidiFuncBoxChange
+(0, 24-sty-2015 14:29:53) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:29:53) EnumerateJoysticks
+(0, 24-sty-2015 14:29:53) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:29:53) StartCompileTimeP5 False
+(0, 24-sty-2015 14:29:53) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:29:53) StartKeyboardMonitor
+(0, 24-sty-2015 14:29:53) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:29:53) StartRuntimeJoystick
+(0, 24-sty-2015 14:29:53) StartJoystickMonitor
+(0, 24-sty-2015 14:29:53) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:29:53) EnumerateJoysticks
+(0, 24-sty-2015 14:29:53) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:29:53) CreateJoystickDevices
+(0, 24-sty-2015 14:29:53) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:29:53) ************************* True
+(0, 24-sty-2015 14:29:53) Start Glove Monitor
+(0, 24-sty-2015 14:30:01) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:30:01) StopKeyboardMonitor
+(0, 24-sty-2015 14:30:01) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:30:01) StopRuntimeJoystick
+(0, 24-sty-2015 14:30:01) StopJoystickMonitor
+(0, 24-sty-2015 14:30:01) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:30:01) StopGloveMonitor
+(0, 24-sty-2015 14:30:01) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:30:01) MidiFuncBoxChange
+(0, 24-sty-2015 14:30:05) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:30:05) MidiFuncBoxChange
+(0, 24-sty-2015 14:30:05) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:30:05) EnumerateJoysticks
+(0, 24-sty-2015 14:30:05) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:30:05) StartCompileTimeP5 True
+(0, 24-sty-2015 14:30:05) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:30:05) StartKeyboardMonitor
+(0, 24-sty-2015 14:30:05) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:30:05) StartRuntimeJoystick
+(0, 24-sty-2015 14:30:05) StartJoystickMonitor
+(0, 24-sty-2015 14:30:05) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:30:05) EnumerateJoysticks
+(0, 24-sty-2015 14:30:05) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:30:05) CreateJoystickDevices
+(0, 24-sty-2015 14:30:05) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:30:05) ************************* True
+(0, 24-sty-2015 14:30:05) Start Glove Monitor
+(0, 24-sty-2015 14:30:11) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:30:11) StopKeyboardMonitor
+(0, 24-sty-2015 14:30:11) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:30:11) StopRuntimeJoystick
+(0, 24-sty-2015 14:30:11) StopJoystickMonitor
+(0, 24-sty-2015 14:30:11) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:30:11) StopGloveMonitor
+(0, 24-sty-2015 14:30:11) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:30:11) MidiFuncBoxChange
+(0, 24-sty-2015 14:30:37) RunButton
+(0, 24-sty-2015 14:30:37) Compile>Run
+(0, 24-sty-2015 14:30:37) Script Page
+(0, 24-sty-2015 14:30:37) Compile>Compile
+(0, 24-sty-2015 14:30:37) CompileCode
+(0, 24-sty-2015 14:30:37) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:30:37) EnumerateJoysticks
+(0, 24-sty-2015 14:30:37) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:30:37) StartCompileTimeP5 True
+(0, 24-sty-2015 14:30:37) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:30:37) StartRuntime
+(0, 24-sty-2015 14:30:37) StartKeyboardMonitor
+(0, 24-sty-2015 14:30:37) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:30:39) StartRuntimeJoystick
+(0, 24-sty-2015 14:30:39) ************************* False
+(0, 24-sty-2015 14:31:33) StopButton
+(0, 24-sty-2015 14:31:33) Compile>Stop
+(0, 24-sty-2015 14:31:33) StopRuntime
+(0, 24-sty-2015 14:31:33) StopKeyboardMonitor
+(0, 24-sty-2015 14:31:33) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:31:33) StopRuntimeJoystick
+(0, 24-sty-2015 14:31:37) Midi GUI Page
+(0, 24-sty-2015 14:31:37) CompileCodeA
+(0, 24-sty-2015 14:31:37) CompileCode
+(0, 24-sty-2015 14:31:37) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:31:37) EnumerateJoysticks
+(0, 24-sty-2015 14:31:37) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:31:37) StartCompileTimeP5 False
+(0, 24-sty-2015 14:31:37) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:31:37) SetMidiLine(1)
+(0, 24-sty-2015 14:31:37) Midi DeviceBoxChange
+(0, 24-sty-2015 14:31:37) Midi ChannelBoxChange
+(0, 24-sty-2015 14:31:37) Midi CategoryBox change
+(0, 24-sty-2015 14:31:37) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:37) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:37) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:37) MidiOpBoxChange
+(0, 24-sty-2015 14:31:37) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:37) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:37) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:37) MidiOpBoxChange
+(0, 24-sty-2015 14:31:37) Midi ChannelBoxChange
+(0, 24-sty-2015 14:31:37) Midi CategoryBox change
+(0, 24-sty-2015 14:31:37) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:37) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:37) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:37) MidiOpBoxChange
+(0, 24-sty-2015 14:31:37) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:37) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:37) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:37) MidiOpBoxChange
+(0, 24-sty-2015 14:31:37) Midi CategoryBox change
+(0, 24-sty-2015 14:31:37) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:37) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:37) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:37) MidiOpBoxChange
+(0, 24-sty-2015 14:31:37) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:37) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:37) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:37) MidiOpBoxChange
+(0, 24-sty-2015 14:31:37) Midi CategoryBox change
+(0, 24-sty-2015 14:31:37) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:37) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:37) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:37) MidiOpBoxChange
+(0, 24-sty-2015 14:31:37) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:37) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:37) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:38) MidiOpBoxChange
+(0, 24-sty-2015 14:31:39) Script Page
+(0, 24-sty-2015 14:31:40) File>New
+(0, 24-sty-2015 14:31:40) ClearMidiGui
+(0, 24-sty-2015 14:31:42) Midi GUI Page
+(0, 24-sty-2015 14:31:42) CompileCodeA
+(0, 24-sty-2015 14:31:42) CompileCode
+(0, 24-sty-2015 14:31:42) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:31:42) EnumerateJoysticks
+(0, 24-sty-2015 14:31:42) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:31:42) StartCompileTimeP5 False
+(0, 24-sty-2015 14:31:42) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:31:42) SetMidiLine(1)
+(0, 24-sty-2015 14:31:42) Midi CategoryBox change
+(0, 24-sty-2015 14:31:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:42) MidiOpBoxChange
+(0, 24-sty-2015 14:31:42) Midi DeviceBoxChange
+(0, 24-sty-2015 14:31:42) Midi ChannelBoxChange
+(0, 24-sty-2015 14:31:42) Midi CategoryBox change
+(0, 24-sty-2015 14:31:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:42) MidiOpBoxChange
+(0, 24-sty-2015 14:31:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:42) MidiOpBoxChange
+(0, 24-sty-2015 14:31:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:42) MidiOpBoxChange
+(0, 24-sty-2015 14:31:50) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:31:50) EnumerateJoysticks
+(0, 24-sty-2015 14:31:50) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:31:50) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:31:50) StartKeyboardMonitor
+(0, 24-sty-2015 14:31:50) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:31:50) StartRuntimeJoystick
+(0, 24-sty-2015 14:31:50) StartJoystickMonitor
+(0, 24-sty-2015 14:31:50) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:31:50) EnumerateJoysticks
+(0, 24-sty-2015 14:31:50) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:31:50) CreateJoystickDevices
+(0, 24-sty-2015 14:31:50) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:31:52) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:31:52) StopKeyboardMonitor
+(0, 24-sty-2015 14:31:52) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:31:52) StopRuntimeJoystick
+(0, 24-sty-2015 14:31:52) StopJoystickMonitor
+(0, 24-sty-2015 14:31:52) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:31:52) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:52) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:52) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:52) MidiOpBoxChange
+(0, 24-sty-2015 14:31:52) Midi DeviceBoxChange
+(0, 24-sty-2015 14:31:52) Midi ChannelBoxChange
+(0, 24-sty-2015 14:31:52) Midi CategoryBox change
+(0, 24-sty-2015 14:31:52) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:52) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:52) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:52) MidiOpBoxChange
+(0, 24-sty-2015 14:31:52) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:52) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:52) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:52) MidiOpBoxChange
+(0, 24-sty-2015 14:31:52) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:52) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:52) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:52) MidiOpBoxChange
+(0, 24-sty-2015 14:31:55) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:55) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:55) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:31:55) EnumerateJoysticks
+(0, 24-sty-2015 14:31:55) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:31:55) StartCompileTimeP5 False
+(0, 24-sty-2015 14:31:55) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:31:55) StartKeyboardMonitor
+(0, 24-sty-2015 14:31:55) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:31:55) StartRuntimeJoystick
+(0, 24-sty-2015 14:31:55) StartJoystickMonitor
+(0, 24-sty-2015 14:31:55) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:31:55) EnumerateJoysticks
+(0, 24-sty-2015 14:31:55) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:31:55) CreateJoystickDevices
+(0, 24-sty-2015 14:31:55) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:31:55) ************************* True
+(0, 24-sty-2015 14:31:55) Start Glove Monitor
+(0, 24-sty-2015 14:31:56) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:31:56) StopKeyboardMonitor
+(0, 24-sty-2015 14:31:56) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:31:56) StopRuntimeJoystick
+(0, 24-sty-2015 14:31:56) StopJoystickMonitor
+(0, 24-sty-2015 14:31:56) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:31:56) StopGloveMonitor
+(0, 24-sty-2015 14:31:56) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:56) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:59) MidiApplyButtonClick
+(0, 24-sty-2015 14:31:59) Midi GUI Page
+(0, 24-sty-2015 14:31:59) CompileCodeA
+(0, 24-sty-2015 14:31:59) CompileCode
+(0, 24-sty-2015 14:31:59) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:31:59) EnumerateJoysticks
+(0, 24-sty-2015 14:31:59) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:31:59) StartCompileTimeP5 True
+(0, 24-sty-2015 14:31:59) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:31:59) SetMidiLine(1)
+(0, 24-sty-2015 14:31:59) Midi DeviceBoxChange
+(0, 24-sty-2015 14:31:59) Midi ChannelBoxChange
+(0, 24-sty-2015 14:31:59) Midi CategoryBox change
+(0, 24-sty-2015 14:31:59) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:59) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:59) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:59) MidiOpBoxChange
+(0, 24-sty-2015 14:31:59) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:59) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:59) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:59) MidiOpBoxChange
+(0, 24-sty-2015 14:31:59) Midi ChannelBoxChange
+(0, 24-sty-2015 14:31:59) Midi CategoryBox change
+(0, 24-sty-2015 14:31:59) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:59) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:59) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:59) MidiOpBoxChange
+(0, 24-sty-2015 14:31:59) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:59) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:59) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:59) MidiOpBoxChange
+(0, 24-sty-2015 14:31:59) Midi CategoryBox change
+(0, 24-sty-2015 14:31:59) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:59) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:59) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:59) MidiOpBoxChange
+(0, 24-sty-2015 14:31:59) MidiFieldBoxClick
+(0, 24-sty-2015 14:31:59) MidiFuncBoxChange
+(0, 24-sty-2015 14:31:59) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:31:59) MidiOpBoxChange
+(0, 24-sty-2015 14:32:00) Midi CategoryBox change
+(0, 24-sty-2015 14:32:00) MidiFieldBoxClick
+(0, 24-sty-2015 14:32:00) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:32:00) MidiFuncBoxChange
+(0, 24-sty-2015 14:32:00) MidiOpBoxChange
+(0, 24-sty-2015 14:32:00) MidiFieldBoxClick
+(0, 24-sty-2015 14:32:00) MidiFuncBoxChange
+(0, 24-sty-2015 14:32:00) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:32:00) MidiOpBoxChange
+(0, 24-sty-2015 14:32:00) Midi DeviceBoxChange
+(0, 24-sty-2015 14:32:00) Midi ChannelBoxChange
+(0, 24-sty-2015 14:32:00) Midi CategoryBox change
+(0, 24-sty-2015 14:32:00) MidiFieldBoxClick
+(0, 24-sty-2015 14:32:00) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:32:00) MidiFuncBoxChange
+(0, 24-sty-2015 14:32:00) MidiOpBoxChange
+(0, 24-sty-2015 14:32:00) MidiFieldBoxClick
+(0, 24-sty-2015 14:32:00) MidiFuncBoxChange
+(0, 24-sty-2015 14:32:00) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:32:00) MidiOpBoxChange
+(0, 24-sty-2015 14:32:02) MidiFieldBoxClick
+(0, 24-sty-2015 14:32:02) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:32:02) MidiFuncBoxChange
+(0, 24-sty-2015 14:32:02) MidiOpBoxChange
+(0, 24-sty-2015 14:32:04) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:32:04) MidiFuncBoxChange
+(0, 24-sty-2015 14:32:04) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:32:04) EnumerateJoysticks
+(0, 24-sty-2015 14:32:04) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:32:04) StartCompileTimeP5 False
+(0, 24-sty-2015 14:32:04) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:32:04) StartKeyboardMonitor
+(0, 24-sty-2015 14:32:04) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:32:04) StartRuntimeJoystick
+(0, 24-sty-2015 14:32:04) StartJoystickMonitor
+(0, 24-sty-2015 14:32:04) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:32:04) EnumerateJoysticks
+(0, 24-sty-2015 14:32:05) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:32:05) CreateJoystickDevices
+(0, 24-sty-2015 14:32:05) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:32:05) ************************* True
+(0, 24-sty-2015 14:32:05) Start Glove Monitor
+(0, 24-sty-2015 14:32:13) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:32:13) StopKeyboardMonitor
+(0, 24-sty-2015 14:32:13) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:32:13) StopRuntimeJoystick
+(0, 24-sty-2015 14:32:13) StopJoystickMonitor
+(0, 24-sty-2015 14:32:13) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:32:13) StopGloveMonitor
+(0, 24-sty-2015 14:32:13) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:32:13) MidiFuncBoxChange
+(0, 24-sty-2015 14:32:19) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:32:36) Script Page
+(0, 24-sty-2015 14:33:52) RunButton
+(0, 24-sty-2015 14:33:52) Compile>Run
+(0, 24-sty-2015 14:33:52) Compile>Compile
+(0, 24-sty-2015 14:33:52) CompileCode
+(0, 24-sty-2015 14:33:52) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:33:52) EnumerateJoysticks
+(0, 24-sty-2015 14:33:52) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:33:52) StartCompileTimeP5 True
+(0, 24-sty-2015 14:33:52) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:33:52) StartRuntime
+(0, 24-sty-2015 14:33:52) StartKeyboardMonitor
+(0, 24-sty-2015 14:33:52) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:33:52) StartRuntimeJoystick
+(0, 24-sty-2015 14:33:52) ************************* False
+(0, 24-sty-2015 14:34:42) StopButton
+(0, 24-sty-2015 14:34:42) Compile>Stop
+(0, 24-sty-2015 14:34:42) StopRuntime
+(0, 24-sty-2015 14:34:42) StopKeyboardMonitor
+(0, 24-sty-2015 14:34:42) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:34:42) StopRuntimeJoystick
+(0, 24-sty-2015 14:35:19) RunButton
+(0, 24-sty-2015 14:35:19) Compile>Run
+(0, 24-sty-2015 14:35:19) Compile>Compile
+(0, 24-sty-2015 14:35:19) CompileCode
+(0, 24-sty-2015 14:35:19) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:35:19) EnumerateJoysticks
+(0, 24-sty-2015 14:35:19) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:35:19) StartCompileTimeP5 False
+(0, 24-sty-2015 14:35:19) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:35:19) StartRuntime
+(0, 24-sty-2015 14:35:19) StartKeyboardMonitor
+(0, 24-sty-2015 14:35:19) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:35:22) StartRuntimeJoystick
+(0, 24-sty-2015 14:35:22) ************************* False
+(0, 24-sty-2015 14:36:31) StopButton
+(0, 24-sty-2015 14:36:31) Compile>Stop
+(0, 24-sty-2015 14:36:31) StopRuntime
+(0, 24-sty-2015 14:36:31) StopKeyboardMonitor
+(0, 24-sty-2015 14:36:31) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:36:31) StopRuntimeJoystick
+(0, 24-sty-2015 14:36:58) RunButton
+(0, 24-sty-2015 14:36:58) Compile>Run
+(0, 24-sty-2015 14:36:58) Compile>Compile
+(0, 24-sty-2015 14:36:58) CompileCode
+(0, 24-sty-2015 14:36:58) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:36:58) EnumerateJoysticks
+(0, 24-sty-2015 14:36:58) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:36:58) StartCompileTimeP5 False
+(0, 24-sty-2015 14:36:58) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:36:58) StartRuntime
+(0, 24-sty-2015 14:36:58) StartKeyboardMonitor
+(0, 24-sty-2015 14:36:58) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:36:58) StartRuntimeJoystick
+(0, 24-sty-2015 14:36:58) ************************* False
+(0, 24-sty-2015 14:37:10) StopButton
+(0, 24-sty-2015 14:37:10) Compile>Stop
+(0, 24-sty-2015 14:37:10) StopRuntime
+(0, 24-sty-2015 14:37:10) StopKeyboardMonitor
+(0, 24-sty-2015 14:37:10) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:37:10) StopRuntimeJoystick
+(0, 24-sty-2015 14:37:31) RunButton
+(0, 24-sty-2015 14:37:31) Compile>Run
+(0, 24-sty-2015 14:37:31) Compile>Compile
+(0, 24-sty-2015 14:37:31) CompileCode
+(0, 24-sty-2015 14:37:31) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:37:31) EnumerateJoysticks
+(0, 24-sty-2015 14:37:31) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:37:31) StartCompileTimeP5 False
+(0, 24-sty-2015 14:37:31) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:37:31) StartRuntime
+(0, 24-sty-2015 14:37:31) StartKeyboardMonitor
+(0, 24-sty-2015 14:37:31) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:37:34) StartRuntimeJoystick
+(0, 24-sty-2015 14:37:34) ************************* False
+(0, 24-sty-2015 14:37:40) StopButton
+(0, 24-sty-2015 14:37:40) Compile>Stop
+(0, 24-sty-2015 14:37:40) StopRuntime
+(0, 24-sty-2015 14:37:40) StopKeyboardMonitor
+(0, 24-sty-2015 14:37:40) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:37:40) StopRuntimeJoystick
+(0, 24-sty-2015 14:37:40) RunButton
+(0, 24-sty-2015 14:37:40) Compile>Run
+(0, 24-sty-2015 14:37:40) Compile>Compile
+(0, 24-sty-2015 14:37:40) CompileCode
+(0, 24-sty-2015 14:37:40) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:37:40) EnumerateJoysticks
+(0, 24-sty-2015 14:37:41) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:37:41) StartCompileTimeP5 False
+(0, 24-sty-2015 14:37:41) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:37:41) StartRuntime
+(0, 24-sty-2015 14:37:41) StartKeyboardMonitor
+(0, 24-sty-2015 14:37:41) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:37:43) StartRuntimeJoystick
+(0, 24-sty-2015 14:37:43) ************************* False
+(0, 24-sty-2015 14:37:51) StopButton
+(0, 24-sty-2015 14:37:51) Compile>Stop
+(0, 24-sty-2015 14:37:51) StopRuntime
+(0, 24-sty-2015 14:37:51) StopKeyboardMonitor
+(0, 24-sty-2015 14:37:51) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:37:51) StopRuntimeJoystick
+(0, 24-sty-2015 14:37:52) Midi GUI Page
+(0, 24-sty-2015 14:37:52) CompileCodeA
+(0, 24-sty-2015 14:37:52) CompileCode
+(0, 24-sty-2015 14:37:52) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:37:52) EnumerateJoysticks
+(0, 24-sty-2015 14:37:52) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:37:52) StartCompileTimeP5 False
+(0, 24-sty-2015 14:37:52) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:37:52) SetMidiLine(11)
+(0, 24-sty-2015 14:37:52) Midi DeviceBoxChange
+(0, 24-sty-2015 14:37:52) Midi ChannelBoxChange
+(0, 24-sty-2015 14:37:52) Midi CategoryBox change
+(0, 24-sty-2015 14:37:52) MidiFieldBoxClick
+(0, 24-sty-2015 14:37:52) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:37:52) MidiFuncBoxChange
+(0, 24-sty-2015 14:37:52) MidiOpBoxChange
+(0, 24-sty-2015 14:37:52) MidiFieldBoxClick
+(0, 24-sty-2015 14:37:52) MidiFuncBoxChange
+(0, 24-sty-2015 14:37:52) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:37:52) MidiOpBoxChange
+(0, 24-sty-2015 14:37:52) Midi ChannelBoxChange
+(0, 24-sty-2015 14:37:52) Midi CategoryBox change
+(0, 24-sty-2015 14:37:52) MidiFieldBoxClick
+(0, 24-sty-2015 14:37:52) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:37:52) MidiFuncBoxChange
+(0, 24-sty-2015 14:37:52) MidiOpBoxChange
+(0, 24-sty-2015 14:37:52) MidiFieldBoxClick
+(0, 24-sty-2015 14:37:52) MidiFuncBoxChange
+(0, 24-sty-2015 14:37:52) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:37:52) MidiOpBoxChange
+(0, 24-sty-2015 14:37:52) Midi CategoryBox change
+(0, 24-sty-2015 14:37:52) MidiFieldBoxClick
+(0, 24-sty-2015 14:37:52) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:37:52) MidiFuncBoxChange
+(0, 24-sty-2015 14:37:52) MidiOpBoxChange
+(0, 24-sty-2015 14:37:52) MidiFieldBoxClick
+(0, 24-sty-2015 14:37:52) MidiFuncBoxChange
+(0, 24-sty-2015 14:37:52) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:37:52) MidiOpBoxChange
+(0, 24-sty-2015 14:38:02) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:38:02) EnumerateJoysticks
+(0, 24-sty-2015 14:38:02) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:38:02) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:38:02) StartKeyboardMonitor
+(0, 24-sty-2015 14:38:02) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:38:02) StartRuntimeJoystick
+(0, 24-sty-2015 14:38:02) StartJoystickMonitor
+(0, 24-sty-2015 14:38:02) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:38:02) EnumerateJoysticks
+(0, 24-sty-2015 14:38:02) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:38:02) CreateJoystickDevices
+(0, 24-sty-2015 14:38:02) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:38:07) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:38:07) StopKeyboardMonitor
+(0, 24-sty-2015 14:38:07) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:38:07) StopRuntimeJoystick
+(0, 24-sty-2015 14:38:07) StopJoystickMonitor
+(0, 24-sty-2015 14:38:07) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:38:07) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:07) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:07) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:07) MidiOpBoxChange
+(0, 24-sty-2015 14:38:07) Midi DeviceBoxChange
+(0, 24-sty-2015 14:38:07) Midi ChannelBoxChange
+(0, 24-sty-2015 14:38:07) Midi CategoryBox change
+(0, 24-sty-2015 14:38:07) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:07) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:07) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:07) MidiOpBoxChange
+(0, 24-sty-2015 14:38:07) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:07) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:07) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:07) MidiOpBoxChange
+(0, 24-sty-2015 14:38:07) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:07) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:07) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:07) MidiOpBoxChange
+(0, 24-sty-2015 14:38:13) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:13) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:13) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:38:13) EnumerateJoysticks
+(0, 24-sty-2015 14:38:13) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:38:13) StartCompileTimeP5 False
+(0, 24-sty-2015 14:38:13) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:38:13) StartKeyboardMonitor
+(0, 24-sty-2015 14:38:13) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:38:13) StartRuntimeJoystick
+(0, 24-sty-2015 14:38:13) StartJoystickMonitor
+(0, 24-sty-2015 14:38:13) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:38:13) EnumerateJoysticks
+(0, 24-sty-2015 14:38:13) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:38:13) CreateJoystickDevices
+(0, 24-sty-2015 14:38:13) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:38:13) ************************* True
+(0, 24-sty-2015 14:38:13) Start Glove Monitor
+(0, 24-sty-2015 14:38:21) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:38:21) StopKeyboardMonitor
+(0, 24-sty-2015 14:38:21) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:38:21) StopRuntimeJoystick
+(0, 24-sty-2015 14:38:21) StopJoystickMonitor
+(0, 24-sty-2015 14:38:21) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:38:21) StopGloveMonitor
+(0, 24-sty-2015 14:38:21) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:21) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:25) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:42) MidiApplyButtonClick
+(0, 24-sty-2015 14:38:42) Midi GUI Page
+(0, 24-sty-2015 14:38:42) CompileCodeA
+(0, 24-sty-2015 14:38:42) CompileCode
+(0, 24-sty-2015 14:38:42) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:38:42) EnumerateJoysticks
+(0, 24-sty-2015 14:38:42) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:38:42) StartCompileTimeP5 True
+(0, 24-sty-2015 14:38:42) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:38:42) SetMidiLine(12)
+(0, 24-sty-2015 14:38:42) Midi DeviceBoxChange
+(0, 24-sty-2015 14:38:42) Midi ChannelBoxChange
+(0, 24-sty-2015 14:38:42) Midi CategoryBox change
+(0, 24-sty-2015 14:38:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:42) MidiOpBoxChange
+(0, 24-sty-2015 14:38:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:42) MidiOpBoxChange
+(0, 24-sty-2015 14:38:42) Midi ChannelBoxChange
+(0, 24-sty-2015 14:38:42) Midi CategoryBox change
+(0, 24-sty-2015 14:38:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:42) MidiOpBoxChange
+(0, 24-sty-2015 14:38:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:42) MidiOpBoxChange
+(0, 24-sty-2015 14:38:42) Midi CategoryBox change
+(0, 24-sty-2015 14:38:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:42) MidiOpBoxChange
+(0, 24-sty-2015 14:38:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:43) MidiOpBoxChange
+(0, 24-sty-2015 14:38:43) Midi CategoryBox change
+(0, 24-sty-2015 14:38:43) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:43) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:43) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:43) MidiOpBoxChange
+(0, 24-sty-2015 14:38:43) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:43) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:43) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:43) MidiOpBoxChange
+(0, 24-sty-2015 14:38:43) Midi DeviceBoxChange
+(0, 24-sty-2015 14:38:43) Midi ChannelBoxChange
+(0, 24-sty-2015 14:38:43) Midi CategoryBox change
+(0, 24-sty-2015 14:38:43) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:43) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:43) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:43) MidiOpBoxChange
+(0, 24-sty-2015 14:38:43) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:43) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:43) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:43) MidiOpBoxChange
+(0, 24-sty-2015 14:38:48) MidiFieldBoxClick
+(0, 24-sty-2015 14:38:48) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:48) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:48) MidiOpBoxChange
+(0, 24-sty-2015 14:38:50) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:50) MidiFuncBoxChange
+(0, 24-sty-2015 14:38:50) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:38:50) EnumerateJoysticks
+(0, 24-sty-2015 14:38:50) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:38:50) StartCompileTimeP5 False
+(0, 24-sty-2015 14:38:50) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:38:50) StartKeyboardMonitor
+(0, 24-sty-2015 14:38:50) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:38:50) StartRuntimeJoystick
+(0, 24-sty-2015 14:38:50) StartJoystickMonitor
+(0, 24-sty-2015 14:38:50) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:38:50) EnumerateJoysticks
+(0, 24-sty-2015 14:38:50) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:38:50) CreateJoystickDevices
+(0, 24-sty-2015 14:38:50) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:38:50) ************************* True
+(0, 24-sty-2015 14:38:50) Start Glove Monitor
+(0, 24-sty-2015 14:38:58) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:38:58) StopKeyboardMonitor
+(0, 24-sty-2015 14:38:58) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:38:58) StopRuntimeJoystick
+(0, 24-sty-2015 14:38:58) StopJoystickMonitor
+(0, 24-sty-2015 14:38:58) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:38:58) StopGloveMonitor
+(0, 24-sty-2015 14:38:58) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:38:58) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:00) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:06) MidiApplyButtonClick
+(0, 24-sty-2015 14:39:06) Midi GUI Page
+(0, 24-sty-2015 14:39:06) CompileCodeA
+(0, 24-sty-2015 14:39:06) CompileCode
+(0, 24-sty-2015 14:39:06) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:39:06) EnumerateJoysticks
+(0, 24-sty-2015 14:39:06) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:39:06) StartCompileTimeP5 True
+(0, 24-sty-2015 14:39:06) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:39:06) SetMidiLine(16)
+(0, 24-sty-2015 14:39:06) Midi DeviceBoxChange
+(0, 24-sty-2015 14:39:06) Midi ChannelBoxChange
+(0, 24-sty-2015 14:39:06) Midi CategoryBox change
+(0, 24-sty-2015 14:39:06) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:06) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:06) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:06) MidiOpBoxChange
+(0, 24-sty-2015 14:39:06) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:06) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:06) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:06) MidiOpBoxChange
+(0, 24-sty-2015 14:39:06) Midi ChannelBoxChange
+(0, 24-sty-2015 14:39:06) Midi CategoryBox change
+(0, 24-sty-2015 14:39:06) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:06) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:06) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:06) MidiOpBoxChange
+(0, 24-sty-2015 14:39:06) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:06) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:06) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:06) MidiOpBoxChange
+(0, 24-sty-2015 14:39:06) Midi CategoryBox change
+(0, 24-sty-2015 14:39:06) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:06) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:06) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:06) MidiOpBoxChange
+(0, 24-sty-2015 14:39:06) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:06) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:06) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:06) MidiOpBoxChange
+(0, 24-sty-2015 14:39:06) Midi CategoryBox change
+(0, 24-sty-2015 14:39:06) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:06) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:06) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:06) MidiOpBoxChange
+(0, 24-sty-2015 14:39:06) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:06) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:06) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:06) MidiOpBoxChange
+(0, 24-sty-2015 14:39:06) Midi DeviceBoxChange
+(0, 24-sty-2015 14:39:06) Midi ChannelBoxChange
+(0, 24-sty-2015 14:39:06) Midi CategoryBox change
+(0, 24-sty-2015 14:39:06) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:06) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:06) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:06) MidiOpBoxChange
+(0, 24-sty-2015 14:39:06) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:06) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:06) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:06) MidiOpBoxChange
+(0, 24-sty-2015 14:39:07) Script Page
+(0, 24-sty-2015 14:39:11) Midi GUI Page
+(0, 24-sty-2015 14:39:11) CompileCodeA
+(0, 24-sty-2015 14:39:11) CompileCode
+(0, 24-sty-2015 14:39:11) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:39:11) EnumerateJoysticks
+(0, 24-sty-2015 14:39:12) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:39:12) StartCompileTimeP5 False
+(0, 24-sty-2015 14:39:12) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:39:12) SetMidiLine(17)
+(0, 24-sty-2015 14:39:12) Midi DeviceBoxChange
+(0, 24-sty-2015 14:39:12) Midi ChannelBoxChange
+(0, 24-sty-2015 14:39:12) Midi CategoryBox change
+(0, 24-sty-2015 14:39:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:12) MidiOpBoxChange
+(0, 24-sty-2015 14:39:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:12) MidiOpBoxChange
+(0, 24-sty-2015 14:39:12) Midi ChannelBoxChange
+(0, 24-sty-2015 14:39:12) Midi CategoryBox change
+(0, 24-sty-2015 14:39:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:12) MidiOpBoxChange
+(0, 24-sty-2015 14:39:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:12) MidiOpBoxChange
+(0, 24-sty-2015 14:39:12) Midi CategoryBox change
+(0, 24-sty-2015 14:39:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:12) MidiOpBoxChange
+(0, 24-sty-2015 14:39:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:12) MidiOpBoxChange
+(0, 24-sty-2015 14:39:12) Midi CategoryBox change
+(0, 24-sty-2015 14:39:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:12) MidiOpBoxChange
+(0, 24-sty-2015 14:39:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:12) MidiOpBoxChange
+(0, 24-sty-2015 14:39:19) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:19) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:19) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:19) MidiOpBoxChange
+(0, 24-sty-2015 14:39:25) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:39:25) EnumerateJoysticks
+(0, 24-sty-2015 14:39:25) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:39:25) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:39:25) StartKeyboardMonitor
+(0, 24-sty-2015 14:39:25) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:39:25) StartRuntimeJoystick
+(0, 24-sty-2015 14:39:25) StartJoystickMonitor
+(0, 24-sty-2015 14:39:25) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:39:25) EnumerateJoysticks
+(0, 24-sty-2015 14:39:25) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:39:25) CreateJoystickDevices
+(0, 24-sty-2015 14:39:25) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:39:28) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:39:28) StopKeyboardMonitor
+(0, 24-sty-2015 14:39:28) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:39:28) StopRuntimeJoystick
+(0, 24-sty-2015 14:39:28) StopJoystickMonitor
+(0, 24-sty-2015 14:39:28) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:39:28) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:28) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:28) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:28) MidiOpBoxChange
+(0, 24-sty-2015 14:39:28) Midi DeviceBoxChange
+(0, 24-sty-2015 14:39:28) Midi ChannelBoxChange
+(0, 24-sty-2015 14:39:28) Midi CategoryBox change
+(0, 24-sty-2015 14:39:28) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:28) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:28) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:28) MidiOpBoxChange
+(0, 24-sty-2015 14:39:28) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:28) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:28) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:28) MidiOpBoxChange
+(0, 24-sty-2015 14:39:28) MidiFieldBoxClick
+(0, 24-sty-2015 14:39:28) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:39:28) MidiFuncBoxChange
+(0, 24-sty-2015 14:39:28) MidiOpBoxChange
+(0, 24-sty-2015 14:39:35) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:40:50) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:40:50) MidiFuncBoxChange
+(0, 24-sty-2015 14:40:50) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:40:50) EnumerateJoysticks
+(0, 24-sty-2015 14:40:51) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:40:51) StartCompileTimeP5 False
+(0, 24-sty-2015 14:40:51) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:40:51) StartKeyboardMonitor
+(0, 24-sty-2015 14:40:51) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:40:51) StartRuntimeJoystick
+(0, 24-sty-2015 14:40:51) StartJoystickMonitor
+(0, 24-sty-2015 14:40:51) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:40:51) EnumerateJoysticks
+(0, 24-sty-2015 14:40:51) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:40:51) CreateJoystickDevices
+(0, 24-sty-2015 14:40:51) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:40:51) ************************* True
+(0, 24-sty-2015 14:40:51) Start Glove Monitor
+(0, 24-sty-2015 14:40:58) RunButton
+(0, 24-sty-2015 14:40:58) Compile>Run
+(0, 24-sty-2015 14:40:58) Script Page
+(0, 24-sty-2015 14:40:58) Compile>Compile
+(0, 24-sty-2015 14:40:58) CompileCode
+(0, 24-sty-2015 14:40:58) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:40:58) EnumerateJoysticks
+(0, 24-sty-2015 14:40:58) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:40:58) StartCompileTimeP5 True
+(0, 24-sty-2015 14:40:58) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:40:58) StartRuntime
+(0, 24-sty-2015 14:41:00) StopButton
+(0, 24-sty-2015 14:41:00) Compile>Stop
+(0, 24-sty-2015 14:41:00) StopRuntime
+(0, 24-sty-2015 14:41:00) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:41:00) StopKeyboardMonitor
+(0, 24-sty-2015 14:41:00) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:41:00) StopRuntimeJoystick
+(0, 24-sty-2015 14:41:00) StopGloveMonitor
+(0, 24-sty-2015 14:41:01) Midi GUI Page
+(0, 24-sty-2015 14:41:01) CompileCodeA
+(0, 24-sty-2015 14:41:01) CompileCode
+(0, 24-sty-2015 14:41:01) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:41:01) EnumerateJoysticks
+(0, 24-sty-2015 14:41:01) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:41:01) StartCompileTimeP5 False
+(0, 24-sty-2015 14:41:01) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:41:01) SetMidiLine(17)
+(0, 24-sty-2015 14:41:01) Midi DeviceBoxChange
+(0, 24-sty-2015 14:41:01) Midi ChannelBoxChange
+(0, 24-sty-2015 14:41:01) Midi CategoryBox change
+(0, 24-sty-2015 14:41:01) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:01) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:01) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:01) MidiOpBoxChange
+(0, 24-sty-2015 14:41:01) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:01) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:01) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:01) MidiOpBoxChange
+(0, 24-sty-2015 14:41:01) Midi ChannelBoxChange
+(0, 24-sty-2015 14:41:01) Midi CategoryBox change
+(0, 24-sty-2015 14:41:01) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:01) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:01) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:01) MidiOpBoxChange
+(0, 24-sty-2015 14:41:01) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:01) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:01) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:01) MidiOpBoxChange
+(0, 24-sty-2015 14:41:01) Midi CategoryBox change
+(0, 24-sty-2015 14:41:01) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:01) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:01) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:01) MidiOpBoxChange
+(0, 24-sty-2015 14:41:01) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:01) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:01) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:01) MidiOpBoxChange
+(0, 24-sty-2015 14:41:01) Midi CategoryBox change
+(0, 24-sty-2015 14:41:01) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:01) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:01) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:01) MidiOpBoxChange
+(0, 24-sty-2015 14:41:01) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:01) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:01) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:01) MidiOpBoxChange
+(0, 24-sty-2015 14:41:02) StartRuntimeJoystick
+(0, 24-sty-2015 14:41:02) ************************* False
+(0, 24-sty-2015 14:41:02) StopRuntimeJoystick
+(0, 24-sty-2015 14:41:02) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:02) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:03) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:03) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:03) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:41:03) EnumerateJoysticks
+(0, 24-sty-2015 14:41:03) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:41:03) StartCompileTimeP5 False
+(0, 24-sty-2015 14:41:03) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:41:03) StartKeyboardMonitor
+(0, 24-sty-2015 14:41:03) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:41:03) StartRuntimeJoystick
+(0, 24-sty-2015 14:41:03) ************************* True
+(0, 24-sty-2015 14:41:03) Start Glove Monitor
+(0, 24-sty-2015 14:41:04) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:41:04) StopKeyboardMonitor
+(0, 24-sty-2015 14:41:04) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:41:04) StopRuntimeJoystick
+(0, 24-sty-2015 14:41:04) StopJoystickMonitor
+(0, 24-sty-2015 14:41:04) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:41:04) StopGloveMonitor
+(0, 24-sty-2015 14:41:04) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:04) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:06) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:06) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:06) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:06) MidiOpBoxChange
+(0, 24-sty-2015 14:41:07) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:07) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:07) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:41:07) EnumerateJoysticks
+(0, 24-sty-2015 14:41:07) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:41:07) StartCompileTimeP5 True
+(0, 24-sty-2015 14:41:07) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:41:07) StartKeyboardMonitor
+(0, 24-sty-2015 14:41:07) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:41:07) StartRuntimeJoystick
+(0, 24-sty-2015 14:41:07) StartJoystickMonitor
+(0, 24-sty-2015 14:41:07) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:41:07) EnumerateJoysticks
+(0, 24-sty-2015 14:41:07) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:41:07) CreateJoystickDevices
+(0, 24-sty-2015 14:41:07) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:41:07) ************************* True
+(0, 24-sty-2015 14:41:07) Start Glove Monitor
+(0, 24-sty-2015 14:41:08) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:41:08) StopKeyboardMonitor
+(0, 24-sty-2015 14:41:08) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:41:08) StopRuntimeJoystick
+(0, 24-sty-2015 14:41:08) StopJoystickMonitor
+(0, 24-sty-2015 14:41:08) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:41:08) StopGloveMonitor
+(0, 24-sty-2015 14:41:08) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:08) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:09) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:09) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:09) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:09) MidiOpBoxChange
+(0, 24-sty-2015 14:41:10) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:10) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:10) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:10) MidiOpBoxChange
+(0, 24-sty-2015 14:41:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:12) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:41:12) EnumerateJoysticks
+(0, 24-sty-2015 14:41:12) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:41:12) StartCompileTimeP5 True
+(0, 24-sty-2015 14:41:12) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:41:12) StartKeyboardMonitor
+(0, 24-sty-2015 14:41:12) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:41:12) StartRuntimeJoystick
+(0, 24-sty-2015 14:41:12) StartJoystickMonitor
+(0, 24-sty-2015 14:41:12) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:41:12) EnumerateJoysticks
+(0, 24-sty-2015 14:41:12) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:41:12) CreateJoystickDevices
+(0, 24-sty-2015 14:41:12) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:41:12) ************************* True
+(0, 24-sty-2015 14:41:12) Start Glove Monitor
+(0, 24-sty-2015 14:41:20) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:41:20) StopKeyboardMonitor
+(0, 24-sty-2015 14:41:20) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:41:20) StopRuntimeJoystick
+(0, 24-sty-2015 14:41:20) StopJoystickMonitor
+(0, 24-sty-2015 14:41:20) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:41:20) StopGloveMonitor
+(0, 24-sty-2015 14:41:20) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:20) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:22) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:22) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:22) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:22) MidiOpBoxChange
+(0, 24-sty-2015 14:41:32) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:32) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:32) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:32) MidiOpBoxChange
+(0, 24-sty-2015 14:41:32) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:32) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:32) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:32) MidiOpBoxChange
+(0, 24-sty-2015 14:41:33) MidiFieldBoxClick
+(0, 24-sty-2015 14:41:33) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:41:34) MidiFuncBoxChange
+(0, 24-sty-2015 14:41:34) MidiOpBoxChange
+(0, 24-sty-2015 14:41:36) RunButton
+(0, 24-sty-2015 14:41:36) Compile>Run
+(0, 24-sty-2015 14:41:36) Script Page
+(0, 24-sty-2015 14:41:36) Compile>Compile
+(0, 24-sty-2015 14:41:36) CompileCode
+(0, 24-sty-2015 14:41:36) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:41:36) EnumerateJoysticks
+(0, 24-sty-2015 14:41:36) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:41:36) StartCompileTimeP5 True
+(0, 24-sty-2015 14:41:36) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:41:36) StartRuntime
+(0, 24-sty-2015 14:41:36) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:41:36) StartKeyboardMonitor
+(0, 24-sty-2015 14:41:36) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:41:36) StartRuntimeJoystick
+(0, 24-sty-2015 14:41:36) ************************* False
+(0, 24-sty-2015 14:41:38) StopButton
+(0, 24-sty-2015 14:41:38) Compile>Stop
+(0, 24-sty-2015 14:41:38) StopRuntime
+(0, 24-sty-2015 14:41:38) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:41:38) StopKeyboardMonitor
+(0, 24-sty-2015 14:41:38) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:41:38) StopRuntimeJoystick
+(0, 24-sty-2015 14:42:06) RunButton
+(0, 24-sty-2015 14:42:06) Compile>Run
+(0, 24-sty-2015 14:42:06) Compile>Compile
+(0, 24-sty-2015 14:42:06) CompileCode
+(0, 24-sty-2015 14:42:06) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:06) EnumerateJoysticks
+(0, 24-sty-2015 14:42:06) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:06) StartCompileTimeP5 False
+(0, 24-sty-2015 14:42:06) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:06) StartRuntime
+(0, 24-sty-2015 14:42:06) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:42:06) StartKeyboardMonitor
+(0, 24-sty-2015 14:42:06) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:42:09) StopButton
+(0, 24-sty-2015 14:42:09) Compile>Stop
+(0, 24-sty-2015 14:42:09) StopRuntime
+(0, 24-sty-2015 14:42:09) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:42:09) StopKeyboardMonitor
+(0, 24-sty-2015 14:42:09) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:42:09) StopRuntimeJoystick
+(0, 24-sty-2015 14:42:09) RunButton
+(0, 24-sty-2015 14:42:09) Compile>Run
+(0, 24-sty-2015 14:42:09) Compile>Compile
+(0, 24-sty-2015 14:42:09) CompileCode
+(0, 24-sty-2015 14:42:09) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:09) EnumerateJoysticks
+(0, 24-sty-2015 14:42:09) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:09) StartCompileTimeP5 False
+(0, 24-sty-2015 14:42:09) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:09) StartRuntime
+(0, 24-sty-2015 14:42:09) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:42:09) StartKeyboardMonitor
+(0, 24-sty-2015 14:42:09) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:42:11) StopButton
+(0, 24-sty-2015 14:42:11) Compile>Stop
+(0, 24-sty-2015 14:42:11) StopRuntime
+(0, 24-sty-2015 14:42:11) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:42:11) StopKeyboardMonitor
+(0, 24-sty-2015 14:42:11) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:42:11) StopRuntimeJoystick
+(0, 24-sty-2015 14:42:12) Midi GUI Page
+(0, 24-sty-2015 14:42:12) CompileCodeA
+(0, 24-sty-2015 14:42:12) CompileCode
+(0, 24-sty-2015 14:42:12) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:12) EnumerateJoysticks
+(0, 24-sty-2015 14:42:12) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:12) StartCompileTimeP5 False
+(0, 24-sty-2015 14:42:12) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:12) SetMidiLine(16)
+(0, 24-sty-2015 14:42:12) Midi DeviceBoxChange
+(0, 24-sty-2015 14:42:12) Midi ChannelBoxChange
+(0, 24-sty-2015 14:42:12) Midi CategoryBox change
+(0, 24-sty-2015 14:42:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:12) MidiOpBoxChange
+(0, 24-sty-2015 14:42:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:12) MidiOpBoxChange
+(0, 24-sty-2015 14:42:12) Midi ChannelBoxChange
+(0, 24-sty-2015 14:42:12) Midi CategoryBox change
+(0, 24-sty-2015 14:42:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:12) MidiOpBoxChange
+(0, 24-sty-2015 14:42:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:12) MidiOpBoxChange
+(0, 24-sty-2015 14:42:12) Midi CategoryBox change
+(0, 24-sty-2015 14:42:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:12) MidiOpBoxChange
+(0, 24-sty-2015 14:42:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:12) MidiOpBoxChange
+(0, 24-sty-2015 14:42:12) Midi CategoryBox change
+(0, 24-sty-2015 14:42:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:12) MidiOpBoxChange
+(0, 24-sty-2015 14:42:12) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:12) MidiOpBoxChange
+(0, 24-sty-2015 14:42:13) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:13) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:13) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:13) MidiOpBoxChange
+(0, 24-sty-2015 14:42:13) StartRuntimeJoystick
+(0, 24-sty-2015 14:42:13) ************************* False
+(0, 24-sty-2015 14:42:13) StartRuntimeJoystick
+(0, 24-sty-2015 14:42:13) ************************* False
+(0, 24-sty-2015 14:42:14) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:14) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:14) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:14) EnumerateJoysticks
+(0, 24-sty-2015 14:42:14) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:14) StartCompileTimeP5 False
+(0, 24-sty-2015 14:42:14) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:42:14) StartKeyboardMonitor
+(0, 24-sty-2015 14:42:14) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:42:14) StartRuntimeJoystick
+(0, 24-sty-2015 14:42:14) StartJoystickMonitor
+(0, 24-sty-2015 14:42:14) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:42:14) EnumerateJoysticks
+(0, 24-sty-2015 14:42:14) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:14) CreateJoystickDevices
+(0, 24-sty-2015 14:42:14) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:42:14) ************************* True
+(0, 24-sty-2015 14:42:14) Start Glove Monitor
+(0, 24-sty-2015 14:42:15) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:42:15) StopKeyboardMonitor
+(0, 24-sty-2015 14:42:15) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:42:15) StopRuntimeJoystick
+(0, 24-sty-2015 14:42:15) StopJoystickMonitor
+(0, 24-sty-2015 14:42:15) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:42:15) StopGloveMonitor
+(0, 24-sty-2015 14:42:15) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:15) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:17) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:17) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:17) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:17) MidiOpBoxChange
+(0, 24-sty-2015 14:42:18) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:18) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:18) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:18) EnumerateJoysticks
+(0, 24-sty-2015 14:42:18) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:18) StartCompileTimeP5 True
+(0, 24-sty-2015 14:42:18) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:42:18) StartKeyboardMonitor
+(0, 24-sty-2015 14:42:18) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:42:18) StartRuntimeJoystick
+(0, 24-sty-2015 14:42:18) StartJoystickMonitor
+(0, 24-sty-2015 14:42:18) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:42:18) EnumerateJoysticks
+(0, 24-sty-2015 14:42:18) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:18) CreateJoystickDevices
+(0, 24-sty-2015 14:42:18) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:42:18) ************************* True
+(0, 24-sty-2015 14:42:18) Start Glove Monitor
+(0, 24-sty-2015 14:42:19) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:42:19) StopKeyboardMonitor
+(0, 24-sty-2015 14:42:19) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:42:19) StopRuntimeJoystick
+(0, 24-sty-2015 14:42:19) StopJoystickMonitor
+(0, 24-sty-2015 14:42:19) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:42:19) StopGloveMonitor
+(0, 24-sty-2015 14:42:19) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:19) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:21) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:21) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:21) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:21) MidiOpBoxChange
+(0, 24-sty-2015 14:42:22) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:22) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:22) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:22) EnumerateJoysticks
+(0, 24-sty-2015 14:42:22) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:22) StartCompileTimeP5 True
+(0, 24-sty-2015 14:42:22) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:42:22) StartKeyboardMonitor
+(0, 24-sty-2015 14:42:22) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:42:22) StartRuntimeJoystick
+(0, 24-sty-2015 14:42:22) StartJoystickMonitor
+(0, 24-sty-2015 14:42:22) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:42:22) EnumerateJoysticks
+(0, 24-sty-2015 14:42:22) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:22) CreateJoystickDevices
+(0, 24-sty-2015 14:42:22) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:42:22) ************************* True
+(0, 24-sty-2015 14:42:22) Start Glove Monitor
+(0, 24-sty-2015 14:42:23) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:42:23) StopKeyboardMonitor
+(0, 24-sty-2015 14:42:23) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:42:23) StopRuntimeJoystick
+(0, 24-sty-2015 14:42:23) StopJoystickMonitor
+(0, 24-sty-2015 14:42:23) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:42:23) StopGloveMonitor
+(0, 24-sty-2015 14:42:23) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:23) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:25) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:25) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:25) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:25) MidiOpBoxChange
+(0, 24-sty-2015 14:42:26) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:26) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:26) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:26) EnumerateJoysticks
+(0, 24-sty-2015 14:42:26) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:26) StartCompileTimeP5 True
+(0, 24-sty-2015 14:42:26) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:42:26) StartKeyboardMonitor
+(0, 24-sty-2015 14:42:26) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:42:26) StartRuntimeJoystick
+(0, 24-sty-2015 14:42:26) StartJoystickMonitor
+(0, 24-sty-2015 14:42:26) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:42:26) EnumerateJoysticks
+(0, 24-sty-2015 14:42:26) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:26) CreateJoystickDevices
+(0, 24-sty-2015 14:42:26) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:42:26) ************************* True
+(0, 24-sty-2015 14:42:26) Start Glove Monitor
+(0, 24-sty-2015 14:42:27) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:42:27) StopKeyboardMonitor
+(0, 24-sty-2015 14:42:27) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:42:27) StopRuntimeJoystick
+(0, 24-sty-2015 14:42:27) StopJoystickMonitor
+(0, 24-sty-2015 14:42:27) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:42:27) StopGloveMonitor
+(0, 24-sty-2015 14:42:27) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:27) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:29) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:29) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:29) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:29) MidiOpBoxChange
+(0, 24-sty-2015 14:42:31) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:31) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:31) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:31) EnumerateJoysticks
+(0, 24-sty-2015 14:42:31) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:31) StartCompileTimeP5 True
+(0, 24-sty-2015 14:42:31) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:42:31) StartKeyboardMonitor
+(0, 24-sty-2015 14:42:31) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:42:31) StartRuntimeJoystick
+(0, 24-sty-2015 14:42:31) StartJoystickMonitor
+(0, 24-sty-2015 14:42:31) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:42:31) EnumerateJoysticks
+(0, 24-sty-2015 14:42:31) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:31) CreateJoystickDevices
+(0, 24-sty-2015 14:42:31) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:42:31) ************************* True
+(0, 24-sty-2015 14:42:31) Start Glove Monitor
+(0, 24-sty-2015 14:42:32) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:42:32) StopKeyboardMonitor
+(0, 24-sty-2015 14:42:32) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:42:32) StopRuntimeJoystick
+(0, 24-sty-2015 14:42:32) StopJoystickMonitor
+(0, 24-sty-2015 14:42:32) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:42:32) StopGloveMonitor
+(0, 24-sty-2015 14:42:32) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:32) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:42) MidiApplyButtonClick
+(0, 24-sty-2015 14:42:42) Midi GUI Page
+(0, 24-sty-2015 14:42:42) CompileCodeA
+(0, 24-sty-2015 14:42:42) CompileCode
+(0, 24-sty-2015 14:42:42) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:42) EnumerateJoysticks
+(0, 24-sty-2015 14:42:42) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:42) StartCompileTimeP5 True
+(0, 24-sty-2015 14:42:42) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:42) SetMidiLine(16)
+(0, 24-sty-2015 14:42:42) Midi DeviceBoxChange
+(0, 24-sty-2015 14:42:42) Midi ChannelBoxChange
+(0, 24-sty-2015 14:42:42) Midi CategoryBox change
+(0, 24-sty-2015 14:42:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:42) MidiOpBoxChange
+(0, 24-sty-2015 14:42:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:42) MidiOpBoxChange
+(0, 24-sty-2015 14:42:42) Midi ChannelBoxChange
+(0, 24-sty-2015 14:42:42) Midi CategoryBox change
+(0, 24-sty-2015 14:42:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:42) MidiOpBoxChange
+(0, 24-sty-2015 14:42:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:42) MidiOpBoxChange
+(0, 24-sty-2015 14:42:42) Midi CategoryBox change
+(0, 24-sty-2015 14:42:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:42) MidiOpBoxChange
+(0, 24-sty-2015 14:42:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:42) MidiOpBoxChange
+(0, 24-sty-2015 14:42:42) Midi CategoryBox change
+(0, 24-sty-2015 14:42:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:42) MidiOpBoxChange
+(0, 24-sty-2015 14:42:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:42) MidiOpBoxChange
+(0, 24-sty-2015 14:42:42) Midi DeviceBoxChange
+(0, 24-sty-2015 14:42:42) Midi ChannelBoxChange
+(0, 24-sty-2015 14:42:42) Midi CategoryBox change
+(0, 24-sty-2015 14:42:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:42) MidiOpBoxChange
+(0, 24-sty-2015 14:42:42) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:42) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:42) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:42) MidiOpBoxChange
+(0, 24-sty-2015 14:42:44) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:44) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:44) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:44) MidiOpBoxChange
+(0, 24-sty-2015 14:42:46) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:46) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:46) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:46) MidiOpBoxChange
+(0, 24-sty-2015 14:42:46) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:46) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:46) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:46) MidiOpBoxChange
+(0, 24-sty-2015 14:42:47) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:47) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:47) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:47) MidiOpBoxChange
+(0, 24-sty-2015 14:42:47) MidiFieldBoxClick
+(0, 24-sty-2015 14:42:47) MidiFuncBoxChange
+(0, 24-sty-2015 14:42:47) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:42:47) MidiOpBoxChange
+(0, 24-sty-2015 14:42:51) RunButton
+(0, 24-sty-2015 14:42:51) Compile>Run
+(0, 24-sty-2015 14:42:51) Script Page
+(0, 24-sty-2015 14:42:51) Compile>Compile
+(0, 24-sty-2015 14:42:51) CompileCode
+(0, 24-sty-2015 14:42:51) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:51) EnumerateJoysticks
+(0, 24-sty-2015 14:42:51) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:42:51) StartCompileTimeP5 False
+(0, 24-sty-2015 14:42:51) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:42:51) StartRuntime
+(0, 24-sty-2015 14:42:51) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:42:51) StartKeyboardMonitor
+(0, 24-sty-2015 14:42:51) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:42:51) StartRuntimeJoystick
+(0, 24-sty-2015 14:42:51) ************************* False
+(0, 24-sty-2015 14:42:57) StopButton
+(0, 24-sty-2015 14:42:57) Compile>Stop
+(0, 24-sty-2015 14:42:57) StopRuntime
+(0, 24-sty-2015 14:42:57) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:42:57) StopKeyboardMonitor
+(0, 24-sty-2015 14:42:57) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:42:58) StopRuntimeJoystick
+(0, 24-sty-2015 14:43:00) Midi GUI Page
+(0, 24-sty-2015 14:43:00) CompileCodeA
+(0, 24-sty-2015 14:43:00) CompileCode
+(0, 24-sty-2015 14:43:00) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:00) EnumerateJoysticks
+(0, 24-sty-2015 14:43:00) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:00) StartCompileTimeP5 False
+(0, 24-sty-2015 14:43:00) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:00) SetMidiLine(1)
+(0, 24-sty-2015 14:43:00) Midi DeviceBoxChange
+(0, 24-sty-2015 14:43:00) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:00) Midi CategoryBox change
+(0, 24-sty-2015 14:43:00) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:00) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:00) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:00) MidiOpBoxChange
+(0, 24-sty-2015 14:43:00) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:00) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:00) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:00) MidiOpBoxChange
+(0, 24-sty-2015 14:43:00) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:00) Midi CategoryBox change
+(0, 24-sty-2015 14:43:00) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:00) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:00) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:00) MidiOpBoxChange
+(0, 24-sty-2015 14:43:00) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:00) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:00) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:00) MidiOpBoxChange
+(0, 24-sty-2015 14:43:00) Midi CategoryBox change
+(0, 24-sty-2015 14:43:00) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:00) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:01) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:01) MidiOpBoxChange
+(0, 24-sty-2015 14:43:01) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:01) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:01) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:01) MidiOpBoxChange
+(0, 24-sty-2015 14:43:03) Script Page
+(0, 24-sty-2015 14:43:04) Midi GUI Page
+(0, 24-sty-2015 14:43:04) CompileCodeA
+(0, 24-sty-2015 14:43:04) CompileCode
+(0, 24-sty-2015 14:43:04) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:04) EnumerateJoysticks
+(0, 24-sty-2015 14:43:04) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:04) StartCompileTimeP5 False
+(0, 24-sty-2015 14:43:04) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:04) SetMidiLine(1)
+(0, 24-sty-2015 14:43:04) Midi DeviceBoxChange
+(0, 24-sty-2015 14:43:04) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:04) Midi CategoryBox change
+(0, 24-sty-2015 14:43:04) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:04) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:04) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:04) MidiOpBoxChange
+(0, 24-sty-2015 14:43:04) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:04) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:04) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:04) MidiOpBoxChange
+(0, 24-sty-2015 14:43:04) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:04) Midi CategoryBox change
+(0, 24-sty-2015 14:43:04) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:04) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:04) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:04) MidiOpBoxChange
+(0, 24-sty-2015 14:43:04) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:04) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:04) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:04) MidiOpBoxChange
+(0, 24-sty-2015 14:43:04) Midi CategoryBox change
+(0, 24-sty-2015 14:43:04) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:04) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:04) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:04) MidiOpBoxChange
+(0, 24-sty-2015 14:43:04) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:04) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:04) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:04) MidiOpBoxChange
+(0, 24-sty-2015 14:43:08) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:08) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:08) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:08) MidiOpBoxChange
+(0, 24-sty-2015 14:43:10) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:10) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:10) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:10) EnumerateJoysticks
+(0, 24-sty-2015 14:43:10) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:10) StartCompileTimeP5 False
+(0, 24-sty-2015 14:43:10) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:43:10) StartKeyboardMonitor
+(0, 24-sty-2015 14:43:10) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:43:10) StartRuntimeJoystick
+(0, 24-sty-2015 14:43:10) StartJoystickMonitor
+(0, 24-sty-2015 14:43:10) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:43:10) EnumerateJoysticks
+(0, 24-sty-2015 14:43:10) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:10) CreateJoystickDevices
+(0, 24-sty-2015 14:43:10) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:43:10) ************************* True
+(0, 24-sty-2015 14:43:10) Start Glove Monitor
+(0, 24-sty-2015 14:43:12) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:43:12) StopKeyboardMonitor
+(0, 24-sty-2015 14:43:12) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:43:12) StopRuntimeJoystick
+(0, 24-sty-2015 14:43:12) StopJoystickMonitor
+(0, 24-sty-2015 14:43:12) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:43:12) StopGloveMonitor
+(0, 24-sty-2015 14:43:12) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:12) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:13) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:13) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:13) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:13) MidiOpBoxChange
+(0, 24-sty-2015 14:43:14) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:14) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:14) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:14) MidiOpBoxChange
+(0, 24-sty-2015 14:43:15) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:15) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:15) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:15) EnumerateJoysticks
+(0, 24-sty-2015 14:43:15) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:15) StartCompileTimeP5 True
+(0, 24-sty-2015 14:43:15) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:43:15) StartKeyboardMonitor
+(0, 24-sty-2015 14:43:15) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:43:15) StartRuntimeJoystick
+(0, 24-sty-2015 14:43:15) StartJoystickMonitor
+(0, 24-sty-2015 14:43:15) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:43:15) EnumerateJoysticks
+(0, 24-sty-2015 14:43:15) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:15) CreateJoystickDevices
+(0, 24-sty-2015 14:43:15) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:43:15) ************************* True
+(0, 24-sty-2015 14:43:15) Start Glove Monitor
+(0, 24-sty-2015 14:43:16) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:43:16) StopKeyboardMonitor
+(0, 24-sty-2015 14:43:16) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:43:16) StopRuntimeJoystick
+(0, 24-sty-2015 14:43:16) StopJoystickMonitor
+(0, 24-sty-2015 14:43:16) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:43:16) StopGloveMonitor
+(0, 24-sty-2015 14:43:16) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:16) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:16) MidiApplyButtonClick
+(0, 24-sty-2015 14:43:16) Midi GUI Page
+(0, 24-sty-2015 14:43:16) CompileCodeA
+(0, 24-sty-2015 14:43:16) CompileCode
+(0, 24-sty-2015 14:43:16) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:16) EnumerateJoysticks
+(0, 24-sty-2015 14:43:16) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:16) StartCompileTimeP5 True
+(0, 24-sty-2015 14:43:16) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:16) SetMidiLine(1)
+(0, 24-sty-2015 14:43:16) Midi DeviceBoxChange
+(0, 24-sty-2015 14:43:16) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:16) Midi CategoryBox change
+(0, 24-sty-2015 14:43:16) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:16) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:16) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:16) MidiOpBoxChange
+(0, 24-sty-2015 14:43:16) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:16) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:16) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:17) MidiOpBoxChange
+(0, 24-sty-2015 14:43:17) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:17) Midi CategoryBox change
+(0, 24-sty-2015 14:43:17) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:17) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:17) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:17) MidiOpBoxChange
+(0, 24-sty-2015 14:43:17) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:17) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:17) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:17) MidiOpBoxChange
+(0, 24-sty-2015 14:43:17) Midi CategoryBox change
+(0, 24-sty-2015 14:43:17) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:17) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:17) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:17) MidiOpBoxChange
+(0, 24-sty-2015 14:43:17) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:17) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:17) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:17) MidiOpBoxChange
+(0, 24-sty-2015 14:43:17) Midi DeviceBoxChange
+(0, 24-sty-2015 14:43:17) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:17) Midi CategoryBox change
+(0, 24-sty-2015 14:43:17) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:17) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:17) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:17) MidiOpBoxChange
+(0, 24-sty-2015 14:43:17) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:17) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:17) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:17) MidiOpBoxChange
+(0, 24-sty-2015 14:43:19) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:19) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:19) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:19) MidiOpBoxChange
+(0, 24-sty-2015 14:43:20) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:20) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:20) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:20) MidiOpBoxChange
+(0, 24-sty-2015 14:43:21) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:21) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:21) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:21) EnumerateJoysticks
+(0, 24-sty-2015 14:43:21) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:21) StartCompileTimeP5 False
+(0, 24-sty-2015 14:43:21) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:43:21) StartKeyboardMonitor
+(0, 24-sty-2015 14:43:21) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:43:21) StartRuntimeJoystick
+(0, 24-sty-2015 14:43:21) StartJoystickMonitor
+(0, 24-sty-2015 14:43:21) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:43:21) EnumerateJoysticks
+(0, 24-sty-2015 14:43:21) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:21) CreateJoystickDevices
+(0, 24-sty-2015 14:43:21) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:43:21) ************************* True
+(0, 24-sty-2015 14:43:21) Start Glove Monitor
+(0, 24-sty-2015 14:43:22) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:43:22) StopKeyboardMonitor
+(0, 24-sty-2015 14:43:22) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:43:22) StopRuntimeJoystick
+(0, 24-sty-2015 14:43:22) StopJoystickMonitor
+(0, 24-sty-2015 14:43:22) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:43:22) StopGloveMonitor
+(0, 24-sty-2015 14:43:22) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:22) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:23) MidiApplyButtonClick
+(0, 24-sty-2015 14:43:23) Midi GUI Page
+(0, 24-sty-2015 14:43:23) CompileCodeA
+(0, 24-sty-2015 14:43:23) CompileCode
+(0, 24-sty-2015 14:43:23) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:23) EnumerateJoysticks
+(0, 24-sty-2015 14:43:23) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:23) StartCompileTimeP5 True
+(0, 24-sty-2015 14:43:23) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:23) SetMidiLine(19)
+(0, 24-sty-2015 14:43:23) Midi DeviceBoxChange
+(0, 24-sty-2015 14:43:23) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:23) Midi CategoryBox change
+(0, 24-sty-2015 14:43:23) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:23) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:24) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:24) MidiOpBoxChange
+(0, 24-sty-2015 14:43:24) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:24) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:24) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:24) MidiOpBoxChange
+(0, 24-sty-2015 14:43:24) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:24) Midi CategoryBox change
+(0, 24-sty-2015 14:43:24) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:24) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:24) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:24) MidiOpBoxChange
+(0, 24-sty-2015 14:43:24) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:24) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:24) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:24) MidiOpBoxChange
+(0, 24-sty-2015 14:43:24) Midi CategoryBox change
+(0, 24-sty-2015 14:43:24) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:24) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:24) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:24) MidiOpBoxChange
+(0, 24-sty-2015 14:43:24) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:24) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:24) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:24) MidiOpBoxChange
+(0, 24-sty-2015 14:43:24) Midi CategoryBox change
+(0, 24-sty-2015 14:43:24) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:24) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:24) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:24) MidiOpBoxChange
+(0, 24-sty-2015 14:43:24) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:24) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:24) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:24) MidiOpBoxChange
+(0, 24-sty-2015 14:43:24) Midi DeviceBoxChange
+(0, 24-sty-2015 14:43:24) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:24) Midi CategoryBox change
+(0, 24-sty-2015 14:43:24) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:24) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:24) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:24) MidiOpBoxChange
+(0, 24-sty-2015 14:43:24) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:24) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:24) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:24) MidiOpBoxChange
+(0, 24-sty-2015 14:43:24) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:24) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:24) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:24) MidiOpBoxChange
+(0, 24-sty-2015 14:43:26) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:26) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:26) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:26) EnumerateJoysticks
+(0, 24-sty-2015 14:43:26) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:26) StartCompileTimeP5 False
+(0, 24-sty-2015 14:43:26) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:43:26) StartKeyboardMonitor
+(0, 24-sty-2015 14:43:26) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:43:26) StartRuntimeJoystick
+(0, 24-sty-2015 14:43:26) StartJoystickMonitor
+(0, 24-sty-2015 14:43:26) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:43:26) EnumerateJoysticks
+(0, 24-sty-2015 14:43:26) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:26) CreateJoystickDevices
+(0, 24-sty-2015 14:43:26) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:43:26) ************************* True
+(0, 24-sty-2015 14:43:26) Start Glove Monitor
+(0, 24-sty-2015 14:43:28) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:43:28) StopKeyboardMonitor
+(0, 24-sty-2015 14:43:28) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:43:28) StopRuntimeJoystick
+(0, 24-sty-2015 14:43:28) StopJoystickMonitor
+(0, 24-sty-2015 14:43:28) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:43:28) StopGloveMonitor
+(0, 24-sty-2015 14:43:28) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:28) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:29) MidiApplyButtonClick
+(0, 24-sty-2015 14:43:29) Midi GUI Page
+(0, 24-sty-2015 14:43:29) CompileCodeA
+(0, 24-sty-2015 14:43:29) CompileCode
+(0, 24-sty-2015 14:43:29) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:29) EnumerateJoysticks
+(0, 24-sty-2015 14:43:29) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:29) StartCompileTimeP5 True
+(0, 24-sty-2015 14:43:29) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:29) SetMidiLine(20)
+(0, 24-sty-2015 14:43:29) Midi DeviceBoxChange
+(0, 24-sty-2015 14:43:29) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:29) Midi CategoryBox change
+(0, 24-sty-2015 14:43:29) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:29) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:29) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:29) MidiOpBoxChange
+(0, 24-sty-2015 14:43:29) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:29) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:29) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:29) MidiOpBoxChange
+(0, 24-sty-2015 14:43:29) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:29) Midi CategoryBox change
+(0, 24-sty-2015 14:43:29) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:29) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:29) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:29) MidiOpBoxChange
+(0, 24-sty-2015 14:43:29) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:29) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:29) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:30) MidiOpBoxChange
+(0, 24-sty-2015 14:43:30) Midi CategoryBox change
+(0, 24-sty-2015 14:43:30) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:30) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:30) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:30) MidiOpBoxChange
+(0, 24-sty-2015 14:43:30) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:30) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:30) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:30) MidiOpBoxChange
+(0, 24-sty-2015 14:43:30) Midi CategoryBox change
+(0, 24-sty-2015 14:43:30) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:30) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:30) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:30) MidiOpBoxChange
+(0, 24-sty-2015 14:43:30) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:30) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:30) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:30) MidiOpBoxChange
+(0, 24-sty-2015 14:43:30) Midi DeviceBoxChange
+(0, 24-sty-2015 14:43:30) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:30) Midi CategoryBox change
+(0, 24-sty-2015 14:43:30) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:30) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:30) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:30) MidiOpBoxChange
+(0, 24-sty-2015 14:43:30) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:30) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:30) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:30) MidiOpBoxChange
+(0, 24-sty-2015 14:43:31) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:31) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:31) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:31) MidiOpBoxChange
+(0, 24-sty-2015 14:43:32) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:32) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:32) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:32) EnumerateJoysticks
+(0, 24-sty-2015 14:43:32) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:32) StartCompileTimeP5 False
+(0, 24-sty-2015 14:43:32) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:43:32) StartKeyboardMonitor
+(0, 24-sty-2015 14:43:32) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:43:32) StartRuntimeJoystick
+(0, 24-sty-2015 14:43:32) StartJoystickMonitor
+(0, 24-sty-2015 14:43:32) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:43:32) EnumerateJoysticks
+(0, 24-sty-2015 14:43:32) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:32) CreateJoystickDevices
+(0, 24-sty-2015 14:43:32) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:43:32) ************************* True
+(0, 24-sty-2015 14:43:32) Start Glove Monitor
+(0, 24-sty-2015 14:43:33) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:43:33) StopKeyboardMonitor
+(0, 24-sty-2015 14:43:33) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:43:33) StopRuntimeJoystick
+(0, 24-sty-2015 14:43:33) StopJoystickMonitor
+(0, 24-sty-2015 14:43:33) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:43:33) StopGloveMonitor
+(0, 24-sty-2015 14:43:33) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:33) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:34) MidiApplyButtonClick
+(0, 24-sty-2015 14:43:34) Midi GUI Page
+(0, 24-sty-2015 14:43:34) CompileCodeA
+(0, 24-sty-2015 14:43:34) CompileCode
+(0, 24-sty-2015 14:43:34) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:34) EnumerateJoysticks
+(0, 24-sty-2015 14:43:34) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:34) StartCompileTimeP5 True
+(0, 24-sty-2015 14:43:34) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:34) SetMidiLine(21)
+(0, 24-sty-2015 14:43:34) Midi DeviceBoxChange
+(0, 24-sty-2015 14:43:34) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:34) Midi CategoryBox change
+(0, 24-sty-2015 14:43:34) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:34) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:34) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:34) MidiOpBoxChange
+(0, 24-sty-2015 14:43:34) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:34) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:34) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:34) MidiOpBoxChange
+(0, 24-sty-2015 14:43:34) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:34) Midi CategoryBox change
+(0, 24-sty-2015 14:43:34) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:34) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:34) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:34) MidiOpBoxChange
+(0, 24-sty-2015 14:43:34) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:34) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:34) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:34) MidiOpBoxChange
+(0, 24-sty-2015 14:43:34) Midi CategoryBox change
+(0, 24-sty-2015 14:43:34) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:34) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:34) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:34) MidiOpBoxChange
+(0, 24-sty-2015 14:43:34) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:34) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:34) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:35) MidiOpBoxChange
+(0, 24-sty-2015 14:43:35) Midi CategoryBox change
+(0, 24-sty-2015 14:43:35) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:35) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:35) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:35) MidiOpBoxChange
+(0, 24-sty-2015 14:43:35) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:35) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:35) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:35) MidiOpBoxChange
+(0, 24-sty-2015 14:43:35) Midi DeviceBoxChange
+(0, 24-sty-2015 14:43:35) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:35) Midi CategoryBox change
+(0, 24-sty-2015 14:43:35) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:35) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:35) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:35) MidiOpBoxChange
+(0, 24-sty-2015 14:43:35) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:35) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:35) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:35) MidiOpBoxChange
+(0, 24-sty-2015 14:43:36) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:36) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:36) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:36) MidiOpBoxChange
+(0, 24-sty-2015 14:43:37) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:37) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:37) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:37) EnumerateJoysticks
+(0, 24-sty-2015 14:43:37) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:37) StartCompileTimeP5 False
+(0, 24-sty-2015 14:43:37) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:43:37) StartKeyboardMonitor
+(0, 24-sty-2015 14:43:37) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:43:37) StartRuntimeJoystick
+(0, 24-sty-2015 14:43:37) StartJoystickMonitor
+(0, 24-sty-2015 14:43:37) StartingInputMonitor Joystick
+(0, 24-sty-2015 14:43:37) EnumerateJoysticks
+(0, 24-sty-2015 14:43:37) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:37) CreateJoystickDevices
+(0, 24-sty-2015 14:43:37) CreateForceFeedbackDevices
+(0, 24-sty-2015 14:43:37) ************************* True
+(0, 24-sty-2015 14:43:37) Start Glove Monitor
+(0, 24-sty-2015 14:43:38) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:43:38) StopKeyboardMonitor
+(0, 24-sty-2015 14:43:38) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:43:38) StopRuntimeJoystick
+(0, 24-sty-2015 14:43:38) StopJoystickMonitor
+(0, 24-sty-2015 14:43:38) StoppingInputMonitor Joystick
+(0, 24-sty-2015 14:43:38) StopGloveMonitor
+(0, 24-sty-2015 14:43:38) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:38) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:39) MidiApplyButtonClick
+(0, 24-sty-2015 14:43:39) Midi GUI Page
+(0, 24-sty-2015 14:43:39) CompileCodeA
+(0, 24-sty-2015 14:43:39) CompileCode
+(0, 24-sty-2015 14:43:39) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:39) EnumerateJoysticks
+(0, 24-sty-2015 14:43:39) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:43:39) StartCompileTimeP5 True
+(0, 24-sty-2015 14:43:39) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:43:39) SetMidiLine(22)
+(0, 24-sty-2015 14:43:39) Midi DeviceBoxChange
+(0, 24-sty-2015 14:43:39) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:39) Midi CategoryBox change
+(0, 24-sty-2015 14:43:39) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:39) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:39) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:39) MidiOpBoxChange
+(0, 24-sty-2015 14:43:39) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:39) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:39) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:39) MidiOpBoxChange
+(0, 24-sty-2015 14:43:39) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:39) Midi CategoryBox change
+(0, 24-sty-2015 14:43:39) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:39) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:39) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:39) MidiOpBoxChange
+(0, 24-sty-2015 14:43:39) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:39) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:39) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:39) MidiOpBoxChange
+(0, 24-sty-2015 14:43:39) Midi CategoryBox change
+(0, 24-sty-2015 14:43:39) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:39) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:39) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:39) MidiOpBoxChange
+(0, 24-sty-2015 14:43:39) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:39) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:39) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:39) MidiOpBoxChange
+(0, 24-sty-2015 14:43:39) Midi CategoryBox change
+(0, 24-sty-2015 14:43:39) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:39) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:39) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:39) MidiOpBoxChange
+(0, 24-sty-2015 14:43:39) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:39) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:39) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:40) MidiOpBoxChange
+(0, 24-sty-2015 14:43:40) Midi DeviceBoxChange
+(0, 24-sty-2015 14:43:40) Midi ChannelBoxChange
+(0, 24-sty-2015 14:43:40) Midi CategoryBox change
+(0, 24-sty-2015 14:43:40) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:40) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:40) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:40) MidiOpBoxChange
+(0, 24-sty-2015 14:43:40) MidiFieldBoxClick
+(0, 24-sty-2015 14:43:40) MidiFuncBoxChange
+(0, 24-sty-2015 14:43:40) MidiSourceDeviceBoxChange
+(0, 24-sty-2015 14:43:40) MidiOpBoxChange
+(0, 24-sty-2015 14:43:47) Script Page
+(0, 24-sty-2015 14:45:02) File>Save
+(0, 24-sty-2015 14:45:02) File>Save As
+(0, 24-sty-2015 14:52:45) File>Save
+(0, 24-sty-2015 14:53:05) RunButton
+(0, 24-sty-2015 14:53:05) Compile>Run
+(0, 24-sty-2015 14:53:05) Compile>Compile
+(0, 24-sty-2015 14:53:05) CompileCode
+(0, 24-sty-2015 14:53:05) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:53:05) EnumerateJoysticks
+(0, 24-sty-2015 14:53:06) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:53:06) StartCompileTimeP5 False
+(0, 24-sty-2015 14:53:06) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:53:06) StartRuntime
+(0, 24-sty-2015 14:53:06) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:53:06) StartKeyboardMonitor
+(0, 24-sty-2015 14:53:06) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:53:08) StartRuntimeJoystick
+(0, 24-sty-2015 14:53:08) ************************* False
+(0, 24-sty-2015 14:53:56) StopButton
+(0, 24-sty-2015 14:53:56) Compile>Stop
+(0, 24-sty-2015 14:53:56) StopRuntime
+(0, 24-sty-2015 14:53:56) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:53:56) StopKeyboardMonitor
+(0, 24-sty-2015 14:53:56) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:53:57) StopRuntimeJoystick
+(0, 24-sty-2015 14:55:15) RunButton
+(0, 24-sty-2015 14:55:15) Compile>Run
+(0, 24-sty-2015 14:55:15) Compile>Compile
+(0, 24-sty-2015 14:55:15) CompileCode
+(0, 24-sty-2015 14:55:15) StartingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:55:15) EnumerateJoysticks
+(0, 24-sty-2015 14:55:15) Enumerated... BadGamePad = False
+(0, 24-sty-2015 14:55:15) StartCompileTimeP5 False
+(0, 24-sty-2015 14:55:15) StoppingInputMonitor CompileJoystick
+(0, 24-sty-2015 14:55:15) StartRuntime
+(0, 24-sty-2015 14:55:15) StartingInputMonitor Mouse
+(0, 24-sty-2015 14:55:15) StartKeyboardMonitor
+(0, 24-sty-2015 14:55:15) StartingInputMonitor keyboard
+(0, 24-sty-2015 14:55:18) StartRuntimeJoystick
+(0, 24-sty-2015 14:55:18) ************************* False
+(0, 24-sty-2015 14:55:44) StopButton
+(0, 24-sty-2015 14:55:44) Compile>Stop
+(0, 24-sty-2015 14:55:44) StopRuntime
+(0, 24-sty-2015 14:55:44) StoppingInputMonitor Mouse
+(0, 24-sty-2015 14:55:44) StopKeyboardMonitor
+(0, 24-sty-2015 14:55:44) StoppingInputMonitor Keyboard
+(0, 24-sty-2015 14:55:44) StopRuntimeJoystick
+(0, 24-sty-2015 14:56:11) File>Save
+(0, 24-sty-2015 14:56:14) File>Save As

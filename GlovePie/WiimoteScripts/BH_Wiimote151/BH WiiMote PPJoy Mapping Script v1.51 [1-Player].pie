@@ -1,0 +1,208 @@
+﻿//------------------------------------------------------------------------------------------------------------------------
+// WiiMote PPJoy Mapping Script v1.51
+// By: Bighead
+//------------------------------------------------------------------------------------------------------------------------
+// Start up the Wiimote in Mode 1.
+
+if (starting) then
+  var.modep1    = 0
+  Wiimote1.Led1 = 1
+  Wiimote1.Led2 = 0
+  Wiimote1.Led3 = 0
+  Wiimote1.Led4 = 0
+endif
+
+//------------------------------------------------------------------------------------------------------------------------
+// Mode swap function when pressing Home button.
+
+if (Wiimote1.Home OR Wiimote1.Classic.Home) then
+  if (var.modep1 == 0) then
+    var.modep1    = 1
+    Wiimote1.Led1 = 0
+    Wiimote1.Led2 = 1
+  elseif (var.modep1 == 1) then
+    var.modep1    = 0
+    Wiimote1.Led1 = 1
+    Wiimote1.Led2 = 0
+  endif
+  wait 300ms
+endif
+
+//------------------------------------------------------------------------------------------------------------------------
+// NunChuck Controls
+if (Nunchuk1.Exists) then
+
+  //-- Mode 1 - Nunchuck Analog Inputs
+  if (var.modep1 == 0) then
+    PPJoy1.Analog0 = Wiimote1.Nunchuk.JoyX * (1 + 0.45 * abs(Wiimote1.Nunchuk.JoyY))
+    PPJoy1.Analog1 = Wiimote1.Nunchuk.JoyY * (1 + 0.45 * abs(Wiimote1.Nunchuk.JoyX))
+
+  //-- Mode 2 - Nunchuck Digital Inputs 
+  elseif (var.modep1 == 1) then
+    PPJoy1.Analog0   = 0
+    PPJoy1.Analog1   = 0
+    PPJoy1.Digital16 = (-2 < Wiimote1.Nunchuk.JoyY < -0.4) //- Logical D-Pad Up
+    PPJoy1.Digital17 = (2 > Wiimote1.Nunchuk.JoyY > 0.4)   //- Logical D-Pad Down
+    PPJoy1.Digital18 = (-2 < Wiimote1.Nunchuk.JoyX < -0.4) //- Logical D-Pad Left 
+    PPJoy1.Digital19 = (2 > Wiimote1.Nunchuk.JoyX > 0.4)   //- Logical D-Pad Right
+  endif
+
+//-- Button Inputs
+  PPJoy1.Digital0  = Wiimote1.B
+  PPJoy1.Digital1  = Wiimote1.A
+  PPJoy1.Digital2  = Wiimote1.Nunchuk.ZButton
+  PPJoy1.Digital3  = Wiimote1.Nunchuk.CButton
+  PPJoy1.Digital4  = Wiimote1.Up
+  PPJoy1.Digital5  = Wiimote1.Down
+  PPJoy1.Digital6  = Wiimote1.Left
+  PPJoy1.Digital7  = Wiimote1.Right
+  PPJoy1.Digital8  = Wiimote1.Minus
+  PPJoy1.Digital9  = Wiimote1.Plus
+  PPJoy1.Digital10 = Wiimote1.One
+  PPJoy1.Digital11 = Wiimote1.Two
+
+//------------------------------------------------------------------------------------------------------------------------
+// Classic Controller
+elseif (Classic1.Exists) then
+
+  //-- Mode 1 - D-Pad and Analog have seperate functions.
+  if (var.modep1 == 0) then
+    PPJoy1.Analog0   = Wiimote1.Classic.Joy1X * (1 + 0.45 * abs(Wiimote1.Classic.Joy1Y))
+    PPJoy1.Analog1   = Wiimote1.Classic.Joy1Y * (1 + 0.45 * abs(Wiimote1.Classic.Joy1X))
+    PPJoy1.Digital16 = Wiimote1.Classic.Up
+    PPJoy1.Digital17 = Wiimote1.Classic.Down
+    PPJoy1.Digital18 = Wiimote1.Classic.Left
+    PPJoy1.Digital19 = Wiimote1.Classic.Right
+
+  //-- Mode 2 - Analog and D-Pad both function as D-Pad.
+  elseif (var.modep1 == 1) then
+    PPJoy1.Analog0   = 0
+    PPJoy1.Analog1   = 0
+    PPJoy1.Digital16 = (-2 < Wiimote1.Classic.Joy1Y < -0.4) OR (Wiimote1.Classic.Up)   //- Logical D-Pad Up
+    PPJoy1.Digital17 = (2 > Wiimote1.Classic.Joy1Y > 0.4) OR (Wiimote1.Classic.Down)   //- Logical D-Pad Down
+    PPJoy1.Digital18 = (-2 < Wiimote1.Classic.Joy1X < -0.4) OR (Wiimote1.Classic.Left) //- Logical D-Pad Left 
+    PPJoy1.Digital19 = (2 > Wiimote1.Classic.Joy1X > 0.4) OR (Wiimote1.Classic.Right)  //- Logical D-Pad Right
+  endif
+
+  //-- Analog 2 Inputs
+  PPJoy1.Analog2 = Wiimote1.Classic.Joy2X * (1 + 0.45 * abs(Wiimote1.Classic.Joy2Y))
+  PPJoy1.Analog3 = Wiimote1.Classic.Joy2Y * (1 + 0.45 * abs(Wiimote1.Classic.Joy2X))
+
+  //-- Button Inputs
+  PPJoy1.Digital0 = Wiimote1.Classic.b
+  PPJoy1.Digital1 = Wiimote1.Classic.a
+  PPJoy1.Digital2 = Wiimote1.Classic.y
+  PPJoy1.Digital3 = Wiimote1.Classic.x
+  PPJoy1.Digital4 = Wiimote1.Classic.ZL
+  PPJoy1.Digital5 = Wiimote1.Classic.ZR
+  PPJoy1.digital6 = Wiimote1.Classic.LFull
+  PPJoy1.digital7 = Wiimote1.Classic.RFull
+  PPJoy1.Digital8 = Wiimote1.Classic.Minus
+  PPJoy1.Digital9 = Wiimote1.Classic.Plus
+
+//-- Extra Buttons (Could be Useful if L3 and R3 is needed for Playstation)
+  PPJoy1.Digital10 = Wiimote1.One
+  PPJoy1.Digital11 = Wiimote1.Two
+  PPJoy1.Digital12 = Wiimote1.A
+  PPJoy1.Digital13 = Wiimote1.B
+  PPJoy1.Digital14 = Wiimote1.Plus
+  PPJoy1.Digital15 = Wiimote1.Minus
+
+//------------------------------------------------------------------------------------------------------------------------
+// Wii Guitar
+elseif (WiiGuitar1.Exists) then
+
+  // -- Enable analog stick on Wii Guitar (although not really used).
+  PPJoy1.Analog0 = Wiimote1.Guitar.JoyX * (1 + 0.45 * abs(Wiimote1.Guitar.JoyY))
+  PPJoy1.Analog1 = Wiimote1.Guitar.JoyY * (1 + 0.45 * abs(Wiimote1.Guitar.JoyX))
+
+  //-- Mode 1 - PCSX2 Emulator mode.
+  if (var.modep1 == 0) then
+    PPJoy1.Digital0  = Wiimote1.Guitar.Fret1
+    PPJoy1.Digital1  = Wiimote1.Guitar.Fret2
+    PPJoy1.Digital2  = Wiimote1.Guitar.Fret3
+    PPJoy1.Digital3  = Wiimote1.Guitar.Fret4
+    PPJoy1.Digital4  = Wiimote1.Guitar.Fret5
+    PPJoy1.Digital5  = (Wiimote1.Guitar.WhammyBar < 0.65) AND (Wiimote1.Guitar.WhammyBar > 0.55)
+    PPJoy1.Digital6  = (Wiimote1.Guitar.WhammyBar >= 0.65) AND (Wiimote1.Guitar.WhammyBar < 0.75)
+    PPJoy1.Digital7  = Wiimote1.Guitar.StrumUp
+    PPJoy1.Digital8  = Wiimote1.Guitar.StrumDown
+    PPJoy1.Digital9  = Wiimote1.Guitar.Plus
+    PPJoy1.Digital10 = Wiimote1.Guitar.Minus
+    PPJoy1.Digital11 = (Wiimote1.SmoothPitch > 45)
+
+  //-- Mode 2 - Guitar Hero III PC Mode.
+  elseif (var.modep1 == 1) then
+    Keyboard.RightShift = Wiimote1.Guitar.StrumUp
+    Keyboard.Slash      = Wiimote1.Guitar.StrumDown
+    Keyboard.V          = Wiimote1.Guitar.Fret1
+    Keyboard.C          = Wiimote1.Guitar.Fret2
+    Keyboard.X          = Wiimote1.Guitar.Fret3
+    Keyboard.Z          = Wiimote1.Guitar.Fret4
+    Keyboard.LeftShift  = Wiimote1.Guitar.Fret5
+    Keyboard.Escape     = Wiimote1.Guitar.Plus
+    Keyboard.Backspace  = Wiimote1.Guitar.Plus
+    Keyboard.Space      = (Wiimote1.SmoothPitch > 45) OR (Wiimote1.Guitar.Minus)
+    Keyboard.RightAlt   = (Wiimote1.Guitar.WhammyBar > 0.65) AND (Wiimote1.Guitar.WhammyBar < 0.75)
+  endif
+
+//------------------------------------------------------------------------------------------------------------------------
+// Wii Drums *(Untested)
+elseif (WiiDrums1.Exists) then
+  PPJoy1.Analog0   = Wiimote1.Drums.JoyX*(1 + 0.45 * abs(Wiimote1.Drums.JoyY))
+  PPJoy1.Analog1   = Wiimote1.Drums.JoyY*(1 + 0.45 * abs(Wiimote1.Drums.JoyX))
+  PPJoy1.Digital0  = Wiimote1.Drums.Red
+  PPJoy1.Digital1  = Wiimote1.Drums.Blue
+  PPJoy1.Digital2  = Wiimote1.Drums.Green
+  PPJoy1.Digital3  = Wiimote1.Drums.Yellow
+  PPJoy1.Digital4  = Wiimote1.Drums.Orange
+  PPJoy1.Digital5  = Wiimote1.Drums.Pedal
+  PPJoy1.Digital6  = Wiimote1.Drums.HiHat
+  PPJoy1.Digital7  = (Wiimote1.Drums.Plus) OR (Wiimote1.Plus)
+  PPJoy1.Digital8  = (Wiimote1.Drums.Minus) OR (Wiimote1.Minus)
+  PPJoy1.Digital9  = Wiimote1.One
+  PPJoy1.Digital10 = Wiimote1.Two
+  PPJoy1.Digital11 = Wiimote1.A
+  PPJoy1.Digital16 = Wiimote1.Left
+  PPJoy1.Digital17 = Wiimote1.Right
+  PPJoy1.Digital18 = Wiimote1.Down
+  PPJoy1.Digital19 = Wiimote1.Up
+
+//------------------------------------------------------------------------------------------------------------------------
+// No Extensions
+else
+
+//-- Zero out the analog sticks.
+  PPJoy1.Analog0 = 0
+  PPJoy1.Analog1 = 0
+  PPJoy1.Analog2 = 0
+  PPJoy1.Analog3 = 0
+
+//-- WiiMote D-Pad Inputs 
+  PPJoy1.Digital16 = Wiimote1.Right
+  PPJoy1.Digital17 = Wiimote1.Left
+  PPJoy1.Digital18 = Wiimote1.Up
+  PPJoy1.Digital19 = Wiimote1.Down
+  
+  //-- Mode 1 - Button modep1 1.
+  if (var.modep1 == 0) then
+    PPJoy1.Digital0  = Wiimote1.B
+    PPJoy1.Digital1  = Wiimote1.A
+    PPJoy1.Digital8  = Wiimote1.Minus
+    PPJoy1.Digital9  = Wiimote1.Plus
+    PPJoy1.Digital10 = Wiimote1.One
+    PPJoy1.Digital11 = Wiimote1.Two
+	  
+  //-- Mode 2 - Button modep1 2.
+  elseif (var.modep1 == 1) then
+    PPJoy1.Digital2  = Wiimote1.B
+    PPJoy1.Digital3  = Wiimote1.A
+    PPJoy1.Digital4  = Wiimote1.Minus
+    PPJoy1.Digital5  = Wiimote1.Plus
+    PPJoy1.Digital6  = Wiimote1.One
+    PPJoy1.Digital7  = Wiimote1.Two
+  endif
+
+endif
+
+//------------------------------------------------------------------------------------------------------------------------

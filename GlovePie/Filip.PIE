@@ -1,0 +1,108 @@
+﻿// Start up the Wiimote in Mode 1.
+
+if (starting) then
+  var.modep1    = 0
+  Wiimote1.Led1 = 1
+  Wiimote1.Led2 = 0
+  Wiimote1.Led3 = 0
+  Wiimote1.Led4 = 0
+  wiimote.rumble = true
+  wait 100 ms
+  Wiimote1.Led1 = 0
+  Wiimote1.Led2 = 1
+  Wiimote1.Led3 = 0
+  Wiimote1.Led4 = 0
+  wiimote.rumble = true
+  wait 100 ms
+  Wiimote1.Led1 = 0
+  Wiimote1.Led2 = 0
+  Wiimote1.Led3 = 1
+  Wiimote1.Led4 = 0
+  wiimote.rumble = true
+  wait 100 ms
+  Wiimote1.Led1 = 0
+  Wiimote1.Led2 = 0
+  Wiimote1.Led3 = 0
+  Wiimote1.Led4 = 1
+  wiimote.rumble = true
+  wait 100 ms
+  Wiimote1.Led1 = 0
+  Wiimote1.Led2 = 0
+  Wiimote1.Led3 = 0
+  Wiimote1.Led4 = 0
+  wiimote.rumble = true
+  wait 100 ms
+  Wiimote1.Led1 = 1
+  wiimote.rumble = false
+endif
+
+//--------------------------
+Key.W = Wiimote.Up
+Key.S = Wiimote.Down
+Key.A = Wiimote.Left
+Key.D = Wiimote.Right
+Mouse.LeftButton = Wiimote1.B
+Mouse.RightButton = Wiimote1.A
+Key.One = Wiimote.Minus
+Key.Two = Wiimote.Home
+Key.Three = Wiimote.Plus
+Key.Four = Wiimote.One
+Key.Five = Wiimote.Two
+
+//--------------------------
+var.xOffset = 2 
+var.yOffset = -2 
+var.zOffset = 4 
+
+var.xRot = Wiimote.RawForceX + var.xOffset
+var.yRot = Wiimote.RawForceY + var.yOffset
+var.zRot = Wiimote.RawForceZ + var.zOffset
+// This controls the cursorspeed - set it higher to get faster mouseaction. 
+var.speed = 5
+
+// These settings controls the jittering of the control. If you have very steady 
+// hands, you can lower these settings, if you are a very jittery person 
+// ( like the one in duskwood ) you set the values higher 
+var.xCutoff = 4 
+var.zCutoff = 4
+
+// Sets the mote straight by using the offset we used as inputs earlier in 
+// the script, and print it out at the debug screen. 
+var.xRot = Wiimote.RawForceX + var.xOffset 
+var.yRot = Wiimote.RawForceY + var.yOffset 
+var.zRot = Wiimote.RawForceZ + var.zOffset
+
+var.xtrim = 6
+var.ytrim = -31
+var.ztrim = 6
+//
+//Options:
+var.deadzone = 5 //distance in pixels that you have to move the wiimote in
+   //order for it to register movement. Creates a "dead zone" around the pointer
+   //to make it easier to click. Higher = smoother but less accurate.
+var.KITTspeed = 100 ms //delay speed for flashing LEDs. higher = slower
+var.rumble = false //makes the wiimote rumble if you hit the edge of the screen
+//more options to be added later
+
+
+var.accx = wiimote.RawForceX + var.xtrim
+var.accy = wiimote.RawForceY + var.ytrim
+var.accz = wiimote.RawForceZ + var.ztrim
+
+
+if var.xRot > var.xCutoff then mouse.x = mouse.x - .001 * var.speed * (var.xRot - var.xCutoff) 
+if var.xRot < -var.xCutoff then mouse.x = mouse.x - .001 * var.speed * (var.xRot + var.xCutoff) 
+if var.zRot > var.zCutoff then mouse.y = mouse.y - .001 * var.speed * (var.zRot - var.zCutoff) 
+if var.zRot < -var.zCutoff then mouse.y = mouse.y - .001 * var.speed * (var.zRot + var.zCutoff)
+
+// Here I set the nunchuk so it corresponts with my direction keys. 
+Right = 1 > Wiimote1.Nunchuk.JoyX > 0.5 
+Left = -1 < Wiimote1.Nunchuk.JoyX < -0.5 
+down = 1 > Wiimote1.Nunchuk.JoyY > 0.5 
+up = -1 < Wiimote1.Nunchuk.JoyY < -0.5 
+
+// Nunchuck 
+n = Wiimote.Nunchuk.CButton
+m = Wiimote.Nunchuk.ZButton
+
+

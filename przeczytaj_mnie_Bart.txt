@@ -1,0 +1,17 @@
+Na pocz¹tek wejdŸ do folderu w którym stworzy siê folder repozytorium za pomoc¹ komendy "cd <nazwa_folderu>"/"cd .."(wyjdŸ z folderu). Potem:
+git clone https://github.com/BFilip/open_repo.git
+git remote add origin https://github.com/BFilip/open_repo.git
+
+Jeœli to czytasz to Filip ju¿ Ci to zrobi³.
+
+__________________
+Œci¹ganie zmian:
+git pull -u origin
+
+Upload zmian:
+git add .
+git commit -m "Wiadomosc do komita."
+git push -u origin
+
+Sprawdzenie historii zmian:
+git log

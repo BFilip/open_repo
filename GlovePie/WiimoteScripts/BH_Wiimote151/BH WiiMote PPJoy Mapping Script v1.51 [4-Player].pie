@@ -1,0 +1,611 @@
+﻿//------------------------------------------------------------------------------------------------------------------------
+// WiiMote PPJoy Mapping Script v1.5 (4-Player)
+// By: Bighead
+//------------------------------------------------------------------------------------------------------------------------
+// Force ALL LEDs or lights can bug out.
+if (starting) then
+  var.resetleds = true
+  var.blockmode = true
+endif
+if (var.resetleds) then
+  var.resetleds = false
+  Wait 2000ms
+  var.blockmode = false
+  var.modep1    = 0
+  var.modep2    = 0
+  var.modep3    = 0
+  var.modep4    = 0
+  Wiimote1.Led1 = 1
+  Wiimote1.Led2 = 0
+  Wiimote1.Led3 = 0
+  Wiimote1.Led4 = 0
+  Wiimote2.Led1 = 1
+  Wiimote2.Led2 = 0
+  Wiimote2.Led3 = 0
+  Wiimote2.Led4 = 0
+  Wiimote3.Led1 = 1
+  Wiimote3.Led2 = 0
+  Wiimote3.Led3 = 0
+  Wiimote3.Led4 = 0
+  Wiimote4.Led1 = 1
+  Wiimote4.Led2 = 0
+  Wiimote4.Led3 = 0
+  Wiimote4.Led4 = 0
+endif
+//------------------------------------------------------------------------------------------------------------------------
+// When Space is pressed show which wiimotes are which.
+if (Keyboard.Space AND var.blockmode == false) then
+  var.blockmode = true
+  var.resetleds = true
+  Wiimote1.Led1 = 1
+  Wiimote1.Led2 = 0
+  Wiimote1.Led3 = 0
+  Wiimote1.Led4 = 0
+  Wiimote2.Led1 = 0
+  Wiimote2.Led2 = 1
+  Wiimote2.Led3 = 0
+  Wiimote2.Led4 = 0
+  Wiimote3.Led1 = 0
+  Wiimote3.Led2 = 0
+  Wiimote3.Led3 = 1
+  Wiimote3.Led4 = 0
+  Wiimote4.Led1 = 0
+  Wiimote4.Led2 = 0
+  Wiimote4.Led3 = 0
+  Wiimote4.Led4 = 1
+endif
+//------------------------------------------------------------------------------------------------------------------------
+// Player 1
+if ((Wiimote1.Home OR Wiimote1.Classic.Home) AND var.blockmode == false) then
+  if (var.modep1 == 0) then
+    var.modep1    = 1
+    Wiimote1.Led1 = 0
+    Wiimote1.Led2 = 1
+    Wiimote1.Led3 = 0
+    Wiimote1.Led4 = 0
+  elseif (var.modep1 == 1) then
+    var.modep1    = 0
+    Wiimote1.Led1 = 1
+    Wiimote1.Led2 = 0
+    Wiimote1.Led3 = 0
+    Wiimote1.Led4 = 0
+  endif
+  wait 300ms
+endif
+if (Nunchuk1.Exists) then
+  if (var.modep1 == 0) then
+    PPJoy1.Analog0 = Wiimote1.Nunchuk.JoyX * (1 + 0.45 * abs(Wiimote1.Nunchuk.JoyY))
+    PPJoy1.Analog1 = Wiimote1.Nunchuk.JoyY * (1 + 0.45 * abs(Wiimote1.Nunchuk.JoyX))
+  elseif (var.modep1 == 1) then
+    PPJoy1.Analog0   = 0
+    PPJoy1.Analog1   = 0
+    PPJoy1.Digital16 = (-2 < Wiimote1.Nunchuk.JoyY < -0.4)
+    PPJoy1.Digital17 = (2 > Wiimote1.Nunchuk.JoyY > 0.4)
+    PPJoy1.Digital18 = (-2 < Wiimote1.Nunchuk.JoyX < -0.4)
+    PPJoy1.Digital19 = (2 > Wiimote1.Nunchuk.JoyX > 0.4)
+  endif
+  PPJoy1.Digital0  = Wiimote1.B
+  PPJoy1.Digital1  = Wiimote1.A
+  PPJoy1.Digital2  = Wiimote1.Nunchuk.ZButton
+  PPJoy1.Digital3  = Wiimote1.Nunchuk.CButton
+  PPJoy1.Digital4  = Wiimote1.Up
+  PPJoy1.Digital5  = Wiimote1.Down
+  PPJoy1.Digital6  = Wiimote1.Left
+  PPJoy1.Digital7  = Wiimote1.Right
+  PPJoy1.Digital8  = Wiimote1.Minus
+  PPJoy1.Digital9  = Wiimote1.Plus
+  PPJoy1.Digital10 = Wiimote1.One
+  PPJoy1.Digital11 = Wiimote1.Two
+elseif (Classic1.Exists) then
+  if (var.modep1 == 0) then
+    PPJoy1.Analog0   = Wiimote1.Classic.Joy1X * (1 + 0.45 * abs(Wiimote1.Classic.Joy1Y))
+    PPJoy1.Analog1   = Wiimote1.Classic.Joy1Y * (1 + 0.45 * abs(Wiimote1.Classic.Joy1X))
+    PPJoy1.Digital16 = Wiimote1.Classic.Up
+    PPJoy1.Digital17 = Wiimote1.Classic.Down
+    PPJoy1.Digital18 = Wiimote1.Classic.Left
+    PPJoy1.Digital19 = Wiimote1.Classic.Right
+  elseif (var.modep1 == 1) then
+    PPJoy1.Analog0   = 0
+    PPJoy1.Analog1   = 0
+    PPJoy1.Digital16 = (-2 < Wiimote1.Classic.Joy1Y < -0.4) OR (Wiimote1.Classic.Up)
+    PPJoy1.Digital17 = (2 > Wiimote1.Classic.Joy1Y > 0.4) OR (Wiimote1.Classic.Down)
+    PPJoy1.Digital18 = (-2 < Wiimote1.Classic.Joy1X < -0.4) OR (Wiimote1.Classic.Left)
+    PPJoy1.Digital19 = (2 > Wiimote1.Classic.Joy1X > 0.4) OR (Wiimote1.Classic.Right)
+  endif
+  PPJoy1.Analog2   = Wiimote1.Classic.Joy2X * (1 + 0.45 * abs(Wiimote1.Classic.Joy2Y))
+  PPJoy1.Analog3   = Wiimote1.Classic.Joy2Y * (1 + 0.45 * abs(Wiimote1.Classic.Joy2X))
+  PPJoy1.Digital0  = Wiimote1.Classic.b
+  PPJoy1.Digital1  = Wiimote1.Classic.a
+  PPJoy1.Digital2  = Wiimote1.Classic.y
+  PPJoy1.Digital3  = Wiimote1.Classic.x
+  PPJoy1.Digital4  = Wiimote1.Classic.ZL
+  PPJoy1.Digital5  = Wiimote1.Classic.ZR
+  PPJoy1.digital6  = Wiimote1.Classic.LFull
+  PPJoy1.digital7  = Wiimote1.Classic.RFull
+  PPJoy1.Digital8  = Wiimote1.Classic.Minus
+  PPJoy1.Digital9  = Wiimote1.Classic.Plus
+  PPJoy1.Digital10 = Wiimote1.One
+  PPJoy1.Digital11 = Wiimote1.Two
+  PPJoy1.Digital12 = Wiimote1.A
+  PPJoy1.Digital13 = Wiimote1.B
+  PPJoy1.Digital14 = Wiimote1.Plus
+  PPJoy1.Digital15 = Wiimote1.Minus
+elseif (WiiGuitar1.Exists) then
+  PPJoy1.Analog0 = Wiimote1.Guitar.JoyX * (1 + 0.45 * abs(Wiimote1.Guitar.JoyY))
+  PPJoy1.Analog1 = Wiimote1.Guitar.JoyY * (1 + 0.45 * abs(Wiimote1.Guitar.JoyX))
+  if (var.modep1 == 0) then
+    PPJoy1.Digital0  = Wiimote1.Guitar.Fret1
+    PPJoy1.Digital1  = Wiimote1.Guitar.Fret2
+    PPJoy1.Digital2  = Wiimote1.Guitar.Fret3
+    PPJoy1.Digital3  = Wiimote1.Guitar.Fret4
+    PPJoy1.Digital4  = Wiimote1.Guitar.Fret5
+    PPJoy1.Digital5  = (Wiimote1.Guitar.WhammyBar < 0.65) AND (Wiimote1.Guitar.WhammyBar > 0.55)
+    PPJoy1.Digital6  = (Wiimote1.Guitar.WhammyBar >= 0.65) AND (Wiimote1.Guitar.WhammyBar < 0.75)
+    PPJoy1.Digital7  = Wiimote1.Guitar.StrumUp
+    PPJoy1.Digital8  = Wiimote1.Guitar.StrumDown
+    PPJoy1.Digital9  = Wiimote1.Guitar.Plus
+    PPJoy1.Digital10 = Wiimote1.Guitar.Minus
+    PPJoy1.Digital11 = (Wiimote1.SmoothPitch > 45)
+  elseif (var.modep1 == 1) then
+    Keyboard.RightShift = Wiimote1.Guitar.StrumUp
+    Keyboard.Slash      = Wiimote1.Guitar.StrumDown
+    Keyboard.V          = Wiimote1.Guitar.Fret1
+    Keyboard.C          = Wiimote1.Guitar.Fret2
+    Keyboard.X          = Wiimote1.Guitar.Fret3
+    Keyboard.Z          = Wiimote1.Guitar.Fret4
+    Keyboard.LeftShift  = Wiimote1.Guitar.Fret5
+    Keyboard.Escape     = Wiimote1.Guitar.Plus
+    Keyboard.Backspace  = Wiimote1.Guitar.Plus
+    Keyboard.Space      = (Wiimote1.SmoothPitch > 45) OR (Wiimote1.Guitar.Minus)
+    Keyboard.RightAlt   = (Wiimote1.Guitar.WhammyBar > 0.65) AND (Wiimote1.Guitar.WhammyBar < 0.75)
+  endif
+elseif (WiiDrums1.Exists) then
+  PPJoy1.Analog0   = Wiimote1.Drums.JoyX * (1 + 0.45 * abs(Wiimote1.Drums.JoyY))
+  PPJoy1.Analog1   = Wiimote1.Drums.JoyY * (1 + 0.45 * abs(Wiimote1.Drums.JoyX))
+  PPJoy1.Digital0  = Wiimote1.Drums.Red
+  PPJoy1.Digital1  = Wiimote1.Drums.Blue
+  PPJoy1.Digital2  = Wiimote1.Drums.Green
+  PPJoy1.Digital3  = Wiimote1.Drums.Yellow
+  PPJoy1.Digital4  = Wiimote1.Drums.Orange
+  PPJoy1.Digital5  = Wiimote1.Drums.Pedal
+  PPJoy1.Digital6  = Wiimote1.Drums.HiHat
+  PPJoy1.Digital7  = (Wiimote1.Drums.Plus) OR (Wiimote1.Plus)
+  PPJoy1.Digital8  = (Wiimote1.Drums.Minus) OR (Wiimote1.Minus)
+  PPJoy1.Digital9  = Wiimote1.One
+  PPJoy1.Digital10 = Wiimote1.Two
+  PPJoy1.Digital11 = Wiimote1.A
+  PPJoy1.Digital16 = Wiimote1.Left
+  PPJoy1.Digital17 = Wiimote1.Right
+  PPJoy1.Digital18 = Wiimote1.Down
+  PPJoy1.Digital19 = Wiimote1.Up
+else
+  PPJoy1.Analog0   = 0
+  PPJoy1.Analog1   = 0
+  PPJoy1.Analog2   = 0
+  PPJoy1.Analog3   = 0
+  PPJoy1.Digital16 = Wiimote1.Right
+  PPJoy1.Digital17 = Wiimote1.Left
+  PPJoy1.Digital18 = Wiimote1.Up
+  PPJoy1.Digital19 = Wiimote1.Down
+  if (var.modep1 == 0) then
+    PPJoy1.Digital0  = Wiimote1.B
+    PPJoy1.Digital1  = Wiimote1.A
+    PPJoy1.Digital8  = Wiimote1.Minus
+    PPJoy1.Digital9  = Wiimote1.Plus
+    PPJoy1.Digital10 = Wiimote1.One
+    PPJoy1.Digital11 = Wiimote1.Two
+  elseif (var.modep1 == 1) then
+    PPJoy1.Digital2  = Wiimote1.B
+    PPJoy1.Digital3  = Wiimote1.A
+    PPJoy1.Digital4  = Wiimote1.Minus
+    PPJoy1.Digital5  = Wiimote1.Plus
+    PPJoy1.Digital6  = Wiimote1.One
+    PPJoy1.Digital7  = Wiimote1.Two
+  endif
+endif
+//------------------------------------------------------------------------------------------------------------------------
+// Player 2
+if ((Wiimote2.Home OR Wiimote2.Classic.Home) AND var.blockmode == false) then
+  if (var.modep2 == 0) then
+    var.modep2    = 1
+    Wiimote2.Led1 = 0
+    Wiimote2.Led2 = 1
+    Wiimote2.Led3 = 0
+    Wiimote2.Led4 = 0
+  elseif (var.modep2 == 1) then
+    var.modep2    = 0
+    Wiimote2.Led1 = 1
+    Wiimote2.Led2 = 0
+    Wiimote2.Led3 = 0
+    Wiimote2.Led4 = 0
+  endif
+  wait 300ms
+endif
+if (Nunchuk2.Exists) then
+  if (var.modep2 == 0) then
+    PPJoy2.Analog0 = Wiimote2.Nunchuk.JoyX * (1 + 0.45 * abs(Wiimote2.Nunchuk.JoyY))
+    PPJoy2.Analog1 = Wiimote2.Nunchuk.JoyY * (1 + 0.45 * abs(Wiimote2.Nunchuk.JoyX))
+  elseif (var.modep2 == 1) then
+    PPJoy2.Analog0   = 0
+    PPJoy2.Analog1   = 0
+    PPJoy2.Digital16 = (-2 < Wiimote2.Nunchuk.JoyY < -0.4)
+    PPJoy2.Digital17 = (2 > Wiimote2.Nunchuk.JoyY > 0.4)
+    PPJoy2.Digital18 = (-2 < Wiimote2.Nunchuk.JoyX < -0.4) 
+    PPJoy2.Digital19 = (2 > Wiimote2.Nunchuk.JoyX > 0.4)
+  endif
+  PPJoy2.Digital0  = Wiimote2.B
+  PPJoy2.Digital1  = Wiimote2.A
+  PPJoy2.Digital2  = Wiimote2.Nunchuk.ZButton
+  PPJoy2.Digital3  = Wiimote2.Nunchuk.CButton
+  PPJoy2.Digital4  = Wiimote2.Up
+  PPJoy2.Digital5  = Wiimote2.Down
+  PPJoy2.Digital6  = Wiimote2.Left
+  PPJoy2.Digital7  = Wiimote2.Right
+  PPJoy2.Digital8  = Wiimote2.Minus
+  PPJoy2.Digital9  = Wiimote2.Plus
+  PPJoy2.Digital10 = Wiimote2.One
+  PPJoy2.Digital11 = Wiimote2.Two
+elseif (Classic2.Exists) then
+  if (var.modep2 == 0) then
+    PPJoy2.Analog0   = Wiimote2.Classic.Joy1X * (1 + 0.45 * abs(Wiimote2.Classic.Joy1Y))
+    PPJoy2.Analog1   = Wiimote2.Classic.Joy1Y * (1 + 0.45 * abs(Wiimote2.Classic.Joy1X))
+    PPJoy2.Digital16 = Wiimote2.Classic.Up
+    PPJoy2.Digital17 = Wiimote2.Classic.Down
+    PPJoy2.Digital18 = Wiimote2.Classic.Left
+    PPJoy2.Digital19 = Wiimote2.Classic.Right
+  elseif (var.modep2 == 1) then
+    PPJoy2.Analog0   = 0
+    PPJoy2.Analog1   = 0
+    PPJoy2.Digital16 = (-2 < Wiimote2.Classic.Joy1Y < -0.4) OR (Wiimote2.Classic.Up)
+    PPJoy2.Digital17 = (2 > Wiimote2.Classic.Joy1Y > 0.4) OR (Wiimote2.Classic.Down)
+    PPJoy2.Digital18 = (-2 < Wiimote2.Classic.Joy1X < -0.4) OR (Wiimote2.Classic.Left)
+    PPJoy2.Digital19 = (2 > Wiimote2.Classic.Joy1X > 0.4) OR (Wiimote2.Classic.Right)
+  endif
+  PPJoy2.Analog2   = Wiimote2.Classic.Joy2X * (1 + 0.45 * abs(Wiimote2.Classic.Joy2Y))
+  PPJoy2.Analog3   = Wiimote2.Classic.Joy2Y * (1 + 0.45 * abs(Wiimote2.Classic.Joy2X))
+  PPJoy2.Digital0  = Wiimote2.Classic.b
+  PPJoy2.Digital1  = Wiimote2.Classic.a
+  PPJoy2.Digital2  = Wiimote2.Classic.y
+  PPJoy2.Digital3  = Wiimote2.Classic.x
+  PPJoy2.Digital4  = Wiimote2.Classic.ZL
+  PPJoy2.Digital5  = Wiimote2.Classic.ZR
+  PPJoy2.digital6  = Wiimote2.Classic.LFull
+  PPJoy2.digital7  = Wiimote2.Classic.RFull
+  PPJoy2.Digital8  = Wiimote2.Classic.Minus
+  PPJoy2.Digital9  = Wiimote2.Classic.Plus
+  PPJoy2.Digital10 = Wiimote2.One
+  PPJoy2.Digital11 = Wiimote2.Two
+  PPJoy2.Digital12 = Wiimote2.A
+  PPJoy2.Digital13 = Wiimote2.B
+  PPJoy2.Digital14 = Wiimote2.Plus
+  PPJoy2.Digital15 = Wiimote2.Minus
+elseif (WiiGuitar2.Exists) then
+  PPJoy2.Analog0   = Wiimote2.Guitar.JoyX * (1 + 0.45 * abs(Wiimote2.Guitar.JoyY))
+  PPJoy2.Analog1   = Wiimote2.Guitar.JoyY * (1 + 0.45 * abs(Wiimote2.Guitar.JoyX))
+  PPJoy2.Digital0  = Wiimote2.Guitar.Fret1
+  PPJoy2.Digital1  = Wiimote2.Guitar.Fret2
+  PPJoy2.Digital2  = Wiimote2.Guitar.Fret3
+  PPJoy2.Digital3  = Wiimote2.Guitar.Fret4
+  PPJoy2.Digital4  = Wiimote2.Guitar.Fret5
+  PPJoy2.Digital5  = (Wiimote2.Guitar.WhammyBar < 0.65) AND (Wiimote2.Guitar.WhammyBar > 0.55)
+  PPJoy2.Digital6  = (Wiimote2.Guitar.WhammyBar >= 0.65) AND (Wiimote2.Guitar.WhammyBar < 0.75)
+  PPJoy2.Digital7  = Wiimote2.Guitar.StrumUp
+  PPJoy2.Digital8  = Wiimote2.Guitar.StrumDown
+  PPJoy2.Digital9  = Wiimote2.Guitar.Plus
+  PPJoy2.Digital10 = Wiimote2.Guitar.Minus
+  PPJoy2.Digital11 = (Wiimote2.SmoothPitch > 45)
+elseif (WiiDrums2.Exists) then
+  PPJoy2.Analog0   = Wiimote2.Drums.JoyX * (1 + 0.45 * abs(Wiimote2.Drums.JoyY))
+  PPJoy2.Analog1   = Wiimote2.Drums.JoyY * (1 + 0.45 * abs(Wiimote2.Drums.JoyX))
+  PPJoy2.Digital0  = Wiimote2.Drums.Red
+  PPJoy2.Digital1  = Wiimote2.Drums.Blue
+  PPJoy2.Digital2  = Wiimote2.Drums.Green
+  PPJoy2.Digital3  = Wiimote2.Drums.Yellow
+  PPJoy2.Digital4  = Wiimote2.Drums.Orange
+  PPJoy2.Digital5  = Wiimote2.Drums.Pedal
+  PPJoy2.Digital6  = Wiimote2.Drums.HiHat
+  PPJoy2.Digital7  = (Wiimote2.Drums.Plus) OR (Wiimote2.Plus)
+  PPJoy2.Digital8  = (Wiimote2.Drums.Minus) OR (Wiimote2.Minus)
+  PPJoy2.Digital9  = Wiimote2.One
+  PPJoy2.Digital10 = Wiimote2.Two
+  PPJoy2.Digital11 = Wiimote2.A
+  PPJoy2.Digital16 = Wiimote2.Left
+  PPJoy2.Digital17 = Wiimote2.Right
+  PPJoy2.Digital18 = Wiimote2.Down
+  PPJoy2.Digital19 = Wiimote2.Up
+else
+  PPJoy2.Analog0 = 0
+  PPJoy2.Analog1 = 0
+  PPJoy2.Analog2 = 0
+  PPJoy2.Analog3 = 0
+  PPJoy2.Digital16 = Wiimote2.Right
+  PPJoy2.Digital17 = Wiimote2.Left
+  PPJoy2.Digital18 = Wiimote2.Up
+  PPJoy2.Digital19 = Wiimote2.Down
+  if (var.modep2 == 0) then
+    PPJoy2.Digital0  = Wiimote2.B
+    PPJoy2.Digital1  = Wiimote2.A
+    PPJoy2.Digital8  = Wiimote2.Minus
+    PPJoy2.Digital9  = Wiimote2.Plus
+    PPJoy2.Digital10 = Wiimote2.One
+    PPJoy2.Digital11 = Wiimote2.Two
+  elseif (var.modep2 == 1) then
+    PPJoy2.Digital2  = Wiimote2.B
+    PPJoy2.Digital3  = Wiimote2.A
+    PPJoy2.Digital4  = Wiimote2.Minus
+    PPJoy2.Digital5  = Wiimote2.Plus
+    PPJoy2.Digital6  = Wiimote2.One
+    PPJoy2.Digital7  = Wiimote2.Two
+  endif
+endif
+//------------------------------------------------------------------------------------------------------------------------
+// Player 3
+if ((Wiimote3.Home OR Wiimote3.Classic.Home) AND var.blockmode == false) then
+  if (var.modep3 == 0) then
+    var.modep3    = 1
+    Wiimote3.Led1 = 0
+    Wiimote3.Led2 = 1
+    Wiimote3.Led3 = 0
+    Wiimote3.Led4 = 0
+  elseif (var.modep3 == 1) then
+    var.modep3    = 0
+    Wiimote3.Led1 = 1
+    Wiimote3.Led2 = 0
+    Wiimote3.Led3 = 0
+    Wiimote3.Led4 = 0
+  endif
+  wait 300ms
+endif
+if (Nunchuk3.Exists) then
+  if (var.modep3 == 0) then
+    PPJoy3.Analog0 = Wiimote3.Nunchuk.JoyX * (1 + 0.45 * abs(Wiimote3.Nunchuk.JoyY))
+    PPJoy3.Analog1 = Wiimote3.Nunchuk.JoyY * (1 + 0.45 * abs(Wiimote3.Nunchuk.JoyX))
+  elseif (var.modep3 == 1) then
+    PPJoy3.Analog0   = 0
+    PPJoy3.Analog1   = 0
+    PPJoy3.Digital16 = (-2 < Wiimote3.Nunchuk.JoyY < -0.4)
+    PPJoy3.Digital17 = (2 > Wiimote3.Nunchuk.JoyY > 0.4)
+    PPJoy3.Digital18 = (-2 < Wiimote3.Nunchuk.JoyX < -0.4) 
+    PPJoy3.Digital19 = (2 > Wiimote3.Nunchuk.JoyX > 0.4)
+  endif
+  PPJoy3.Digital0  = Wiimote3.B
+  PPJoy3.Digital1  = Wiimote3.A
+  PPJoy3.Digital2  = Wiimote3.Nunchuk.ZButton
+  PPJoy3.Digital3  = Wiimote3.Nunchuk.CButton
+  PPJoy3.Digital4  = Wiimote3.Up
+  PPJoy3.Digital5  = Wiimote3.Down
+  PPJoy3.Digital6  = Wiimote3.Left
+  PPJoy3.Digital7  = Wiimote3.Right
+  PPJoy3.Digital8  = Wiimote3.Minus
+  PPJoy3.Digital9  = Wiimote3.Plus
+  PPJoy3.Digital10 = Wiimote3.One
+  PPJoy3.Digital11 = Wiimote3.Two
+elseif (Classic3.Exists) then
+  if (var.modep3 == 0) then
+    PPJoy3.Analog0   = Wiimote3.Classic.Joy1X * (1 + 0.45 * abs(Wiimote3.Classic.Joy1Y))
+    PPJoy3.Analog1   = Wiimote3.Classic.Joy1Y * (1 + 0.45 * abs(Wiimote3.Classic.Joy1X))
+    PPJoy3.Digital16 = Wiimote3.Classic.Up
+    PPJoy3.Digital17 = Wiimote3.Classic.Down
+    PPJoy3.Digital18 = Wiimote3.Classic.Left
+    PPJoy3.Digital19 = Wiimote3.Classic.Right
+  elseif (var.modep3 == 1) then
+    PPJoy3.Analog0   = 0
+    PPJoy3.Analog1   = 0
+    PPJoy3.Digital16 = (-2 < Wiimote3.Classic.Joy1Y < -0.4) OR (Wiimote3.Classic.Up)
+    PPJoy3.Digital17 = (2 > Wiimote3.Classic.Joy1Y > 0.4) OR (Wiimote3.Classic.Down)
+    PPJoy3.Digital18 = (-2 < Wiimote3.Classic.Joy1X < -0.4) OR (Wiimote3.Classic.Left)
+    PPJoy3.Digital19 = (2 > Wiimote3.Classic.Joy1X > 0.4) OR (Wiimote3.Classic.Right)
+  endif
+  PPJoy3.Analog2   = Wiimote3.Classic.Joy2X * (1 + 0.45 * abs(Wiimote3.Classic.Joy2Y))
+  PPJoy3.Analog3   = Wiimote3.Classic.Joy2Y * (1 + 0.45 * abs(Wiimote3.Classic.Joy2X))
+  PPJoy3.Digital0  = Wiimote3.Classic.b
+  PPJoy3.Digital1  = Wiimote3.Classic.a
+  PPJoy3.Digital2  = Wiimote3.Classic.y
+  PPJoy3.Digital3  = Wiimote3.Classic.x
+  PPJoy3.Digital4  = Wiimote3.Classic.ZL
+  PPJoy3.Digital5  = Wiimote3.Classic.ZR
+  PPJoy3.digital6  = Wiimote3.Classic.LFull
+  PPJoy3.digital7  = Wiimote3.Classic.RFull
+  PPJoy3.Digital8  = Wiimote3.Classic.Minus
+  PPJoy3.Digital9  = Wiimote3.Classic.Plus
+  PPJoy3.Digital10 = Wiimote3.One
+  PPJoy3.Digital11 = Wiimote3.Two
+  PPJoy3.Digital12 = Wiimote3.A
+  PPJoy3.Digital13 = Wiimote3.B
+  PPJoy3.Digital14 = Wiimote3.Plus
+  PPJoy3.Digital15 = Wiimote3.Minus
+elseif (WiiGuitar3.Exists) then
+  PPJoy3.Analog0   = Wiimote3.Guitar.JoyX * (1 + 0.45 * abs(Wiimote3.Guitar.JoyY))
+  PPJoy3.Analog1   = Wiimote3.Guitar.JoyY * (1 + 0.45 * abs(Wiimote3.Guitar.JoyX))
+  PPJoy3.Digital0  = Wiimote3.Guitar.Fret1
+  PPJoy3.Digital1  = Wiimote3.Guitar.Fret2
+  PPJoy3.Digital2  = Wiimote3.Guitar.Fret3
+  PPJoy3.Digital3  = Wiimote3.Guitar.Fret4
+  PPJoy3.Digital4  = Wiimote3.Guitar.Fret5
+  PPJoy3.Digital5  = (Wiimote3.Guitar.WhammyBar < 0.65) AND (Wiimote3.Guitar.WhammyBar > 0.55)
+  PPJoy3.Digital6  = (Wiimote3.Guitar.WhammyBar >= 0.65) AND (Wiimote3.Guitar.WhammyBar < 0.75)
+  PPJoy3.Digital7  = Wiimote3.Guitar.StrumUp
+  PPJoy3.Digital8  = Wiimote3.Guitar.StrumDown
+  PPJoy3.Digital9  = Wiimote3.Guitar.Plus
+  PPJoy3.Digital10 = Wiimote3.Guitar.Minus
+  PPJoy3.Digital11 = (Wiimote3.SmoothPitch > 45)
+elseif (WiiDrums3.Exists) then
+  PPJoy3.Analog0   = Wiimote3.Drums.JoyX * (1 + 0.45 * abs(Wiimote3.Drums.JoyY))
+  PPJoy3.Analog1   = Wiimote3.Drums.JoyY * (1 + 0.45 * abs(Wiimote3.Drums.JoyX))
+  PPJoy3.Digital0  = Wiimote3.Drums.Red
+  PPJoy3.Digital1  = Wiimote3.Drums.Blue
+  PPJoy3.Digital2  = Wiimote3.Drums.Green
+  PPJoy3.Digital3  = Wiimote3.Drums.Yellow
+  PPJoy3.Digital4  = Wiimote3.Drums.Orange
+  PPJoy3.Digital5  = Wiimote3.Drums.Pedal
+  PPJoy3.Digital6  = Wiimote3.Drums.HiHat
+  PPJoy3.Digital7  = (Wiimote3.Drums.Plus) OR (Wiimote3.Plus)
+  PPJoy3.Digital8  = (Wiimote3.Drums.Minus) OR (Wiimote3.Minus)
+  PPJoy3.Digital9  = Wiimote3.One
+  PPJoy3.Digital10 = Wiimote3.Two
+  PPJoy3.Digital11 = Wiimote3.A
+  PPJoy3.Digital16 = Wiimote3.Left
+  PPJoy3.Digital17 = Wiimote3.Right
+  PPJoy3.Digital18 = Wiimote3.Down
+  PPJoy3.Digital19 = Wiimote3.Up
+else
+  PPJoy3.Analog0   = 0
+  PPJoy3.Analog1   = 0
+  PPJoy3.Analog2   = 0
+  PPJoy3.Analog3   = 0
+  PPJoy3.Digital16 = Wiimote3.Right
+  PPJoy3.Digital17 = Wiimote3.Left
+  PPJoy3.Digital18 = Wiimote3.Up
+  PPJoy3.Digital19 = Wiimote3.Down
+  if (var.modep3 == 0) then
+    PPJoy3.Digital0  = Wiimote3.B
+    PPJoy3.Digital1  = Wiimote3.A
+    PPJoy3.Digital8  = Wiimote3.Minus
+    PPJoy3.Digital9  = Wiimote3.Plus
+    PPJoy3.Digital10 = Wiimote3.One
+    PPJoy3.Digital11 = Wiimote3.Two
+  elseif (var.modep3 == 1) then
+    PPJoy3.Digital2  = Wiimote3.B
+    PPJoy3.Digital3  = Wiimote3.A
+    PPJoy3.Digital4  = Wiimote3.Minus
+    PPJoy3.Digital5  = Wiimote3.Plus
+    PPJoy3.Digital6  = Wiimote3.One
+    PPJoy3.Digital7  = Wiimote3.Two
+  endif
+endif
+//------------------------------------------------------------------------------------------------------------------------
+// Player 4
+if ((Wiimote4.Home OR Wiimote4.Classic.Home) AND var.blockmode == false) then
+  if (var.modep4 == 0) then
+    var.modep4 = 1
+    Wiimote4.Led1 = 0
+    Wiimote4.Led2 = 1
+    Wiimote4.Led3 = 0
+    Wiimote4.Led4 = 0
+  elseif (var.modep4 == 1) then
+    var.modep4 = 0
+    Wiimote4.Led1 = 1
+    Wiimote4.Led2 = 0
+    Wiimote4.Led3 = 0
+    Wiimote4.Led4 = 0
+  endif
+  wait 300ms
+endif
+if (Nunchuk4.Exists) then
+  if (var.modep4 == 0) then
+    PPJoy4.Analog0 = Wiimote4.Nunchuk.JoyX * (1 + 0.45 * abs(Wiimote4.Nunchuk.JoyY))
+    PPJoy4.Analog1 = Wiimote4.Nunchuk.JoyY * (1 + 0.45 * abs(Wiimote4.Nunchuk.JoyX))
+  elseif (var.modep4 == 1) then
+    PPJoy4.Analog0 = 0
+    PPJoy4.Analog1 = 0
+    PPJoy4.Digital16 = (-2 < Wiimote4.Nunchuk.JoyY < -0.4)
+    PPJoy4.Digital17 = (2 > Wiimote4.Nunchuk.JoyY > 0.4)
+    PPJoy4.Digital18 = (-2 < Wiimote4.Nunchuk.JoyX < -0.4) 
+    PPJoy4.Digital19 = (2 > Wiimote4.Nunchuk.JoyX > 0.4)
+  endif
+  PPJoy4.Digital0  = Wiimote4.B
+  PPJoy4.Digital1  = Wiimote4.A
+  PPJoy4.Digital2  = Wiimote4.Nunchuk.ZButton
+  PPJoy4.Digital3  = Wiimote4.Nunchuk.CButton
+  PPJoy4.Digital4  = Wiimote4.Up
+  PPJoy4.Digital5  = Wiimote4.Down
+  PPJoy4.Digital6  = Wiimote4.Left
+  PPJoy4.Digital7  = Wiimote4.Right
+  PPJoy4.Digital8  = Wiimote4.Minus
+  PPJoy4.Digital9  = Wiimote4.Plus
+  PPJoy4.Digital10 = Wiimote4.One
+  PPJoy4.Digital11 = Wiimote4.Two
+elseif (Classic4.Exists) then
+  if (var.modep4 == 0) then
+    PPJoy4.Analog0 = Wiimote4.Classic.Joy1X * (1 + 0.45 * abs(Wiimote4.Classic.Joy1Y))
+    PPJoy4.Analog1 = Wiimote4.Classic.Joy1Y * (1 + 0.45 * abs(Wiimote4.Classic.Joy1X))
+    PPJoy4.Digital16 = Wiimote4.Classic.Up
+    PPJoy4.Digital17 = Wiimote4.Classic.Down
+    PPJoy4.Digital18 = Wiimote4.Classic.Left
+    PPJoy4.Digital19 = Wiimote4.Classic.Right
+  elseif (var.modep4 == 1) then
+    PPJoy4.Analog0 = 0
+    PPJoy4.Analog1 = 0
+    PPJoy4.Digital16 = (-2 < Wiimote4.Classic.Joy1Y < -0.4) OR (Wiimote4.Classic.Up)
+    PPJoy4.Digital17 = (2 > Wiimote4.Classic.Joy1Y > 0.4) OR (Wiimote4.Classic.Down)
+    PPJoy4.Digital18 = (-2 < Wiimote4.Classic.Joy1X < -0.4) OR (Wiimote4.Classic.Left)
+    PPJoy4.Digital19 = (2 > Wiimote4.Classic.Joy1X > 0.4) OR (Wiimote4.Classic.Right)
+  endif
+  PPJoy4.Analog2   = Wiimote4.Classic.Joy2X * (1 + 0.45 * abs(Wiimote4.Classic.Joy2Y))
+  PPJoy4.Analog3   = Wiimote4.Classic.Joy2Y * (1 + 0.45 * abs(Wiimote4.Classic.Joy2X))
+  PPJoy4.Digital0  = Wiimote4.Classic.b
+  PPJoy4.Digital1  = Wiimote4.Classic.a
+  PPJoy4.Digital2  = Wiimote4.Classic.y
+  PPJoy4.Digital3  = Wiimote4.Classic.x
+  PPJoy4.Digital4  = Wiimote4.Classic.ZL
+  PPJoy4.Digital5  = Wiimote4.Classic.ZR
+  PPJoy4.digital6  = Wiimote4.Classic.LFull
+  PPJoy4.digital7  = Wiimote4.Classic.RFull
+  PPJoy4.Digital8  = Wiimote4.Classic.Minus
+  PPJoy4.Digital9  = Wiimote4.Classic.Plus
+  PPJoy4.Digital10 = Wiimote4.One
+  PPJoy4.Digital11 = Wiimote4.Two
+  PPJoy4.Digital12 = Wiimote4.A
+  PPJoy4.Digital13 = Wiimote4.B
+  PPJoy4.Digital14 = Wiimote4.Plus
+  PPJoy4.Digital15 = Wiimote4.Minus
+elseif (WiiGuitar4.Exists) then
+  PPJoy4.Analog0   = Wiimote4.Guitar.JoyX * (1 + 0.45 * abs(Wiimote4.Guitar.JoyY))
+  PPJoy4.Analog1   = Wiimote4.Guitar.JoyY * (1 + 0.45 * abs(Wiimote4.Guitar.JoyX)) 
+  PPJoy4.Digital0  = Wiimote4.Guitar.Fret1
+  PPJoy4.Digital1  = Wiimote4.Guitar.Fret2
+  PPJoy4.Digital2  = Wiimote4.Guitar.Fret3
+  PPJoy4.Digital3  = Wiimote4.Guitar.Fret4
+  PPJoy4.Digital4  = Wiimote4.Guitar.Fret5
+  PPJoy4.Digital5  = (Wiimote4.Guitar.WhammyBar < 0.65) AND (Wiimote4.Guitar.WhammyBar > 0.55)
+  PPJoy4.Digital6  = (Wiimote4.Guitar.WhammyBar >= 0.65) AND (Wiimote4.Guitar.WhammyBar < 0.75)
+  PPJoy4.Digital7  = Wiimote4.Guitar.StrumUp
+  PPJoy4.Digital8  = Wiimote4.Guitar.StrumDown
+  PPJoy4.Digital9  = Wiimote4.Guitar.Plus
+  PPJoy4.Digital10 = Wiimote4.Guitar.Minus
+  PPJoy4.Digital11 = (Wiimote4.SmoothPitch > 45)
+elseif (WiiDrums4.Exists) then
+  PPJoy4.Analog0   = Wiimote4.Drums.JoyX * (1 + 0.45 * abs(Wiimote4.Drums.JoyY))
+  PPJoy4.Analog1   = Wiimote4.Drums.JoyY * (1 + 0.45 * abs(Wiimote4.Drums.JoyX)) 
+  PPJoy4.Digital0  = Wiimote4.Drums.Red
+  PPJoy4.Digital1  = Wiimote4.Drums.Blue
+  PPJoy4.Digital2  = Wiimote4.Drums.Green
+  PPJoy4.Digital3  = Wiimote4.Drums.Yellow
+  PPJoy4.Digital4  = Wiimote4.Drums.Orange
+  PPJoy4.Digital5  = Wiimote4.Drums.Pedal
+  PPJoy4.Digital6  = Wiimote4.Drums.HiHat
+  PPJoy4.Digital7  = (Wiimote4.Drums.Plus) OR (Wiimote4.Plus)
+  PPJoy4.Digital8  = (Wiimote4.Drums.Minus) OR (Wiimote4.Minus)
+  PPJoy4.Digital9  = Wiimote4.One
+  PPJoy4.Digital10 = Wiimote4.Two
+  PPJoy4.Digital11 = Wiimote4.A
+  PPJoy4.Digital16 = Wiimote4.Left
+  PPJoy4.Digital17 = Wiimote4.Right
+  PPJoy4.Digital18 = Wiimote4.Down
+  PPJoy4.Digital19 = Wiimote4.Up
+else
+  PPJoy4.Analog0 = 0
+  PPJoy4.Analog1 = 0
+  PPJoy4.Analog2 = 0
+  PPJoy4.Analog3 = 0
+  PPJoy4.Digital16 = Wiimote4.Right
+  PPJoy4.Digital17 = Wiimote4.Left
+  PPJoy4.Digital18 = Wiimote4.Up
+  PPJoy4.Digital19 = Wiimote4.Down
+  if (var.modep4 == 0) then
+    PPJoy4.Digital0  = Wiimote4.B
+    PPJoy4.Digital1  = Wiimote4.A
+    PPJoy4.Digital8  = Wiimote4.Minus
+    PPJoy4.Digital9  = Wiimote4.Plus
+    PPJoy4.Digital10 = Wiimote4.One
+    PPJoy4.Digital11 = Wiimote4.Two
+  elseif (var.modep4 == 1) then
+    PPJoy4.Digital2 = Wiimote4.B
+    PPJoy4.Digital3 = Wiimote4.A
+    PPJoy4.Digital4 = Wiimote4.Minus
+    PPJoy4.Digital5 = Wiimote4.Plus
+    PPJoy4.Digital6 = Wiimote4.One
+    PPJoy4.Digital7 = Wiimote4.Two
+  endif
+endif
+//------------------------------------------------------------------------------------------------------------------------
